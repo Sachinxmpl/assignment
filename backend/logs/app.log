@@ -1,0 +1,25 @@
+[2025-06-14T11:40:27.673Z] INFO: User registered: sachin@gmail.com
+[2025-06-14T11:41:19.790Z] ERROR: Error [832f0c4c-f22c-4cca-8a8a-e62534892a29] on POST /auth/login - [object Object]
+[2025-06-14T11:41:29.204Z] INFO: User logged in sachin@gmail.com
+[2025-06-14T11:42:09.239Z] ERROR: Validation error - [
+  {
+    "code": "too_small",
+    "minimum": 6,
+    "type": "string",
+    "inclusive": true,
+    "exact": false,
+    "message": "Password must be altest 6 characters",
+    "path": [
+      "password"
+    ]
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "name"
+    ],
+    "message": "Required"
+  }
+]

@@ -1,7 +1,15 @@
-import { createWriteStream } from 'fs';
-import { join } from 'path';
+import { createWriteStream, existsSync, mkdirSync } from 'fs';
+import { join, dirname } from 'path';
 
-const logStream = createWriteStream(join(__dirname, '../../logs/app.log'), { flags: 'a' });
+const logPath = join(__dirname, '../../logs/app.log');
+const logDir = dirname(logPath);
+
+//  Create logs directory if it doesn't exist
+if (!existsSync(logDir)) {
+  mkdirSync(logDir, { recursive: true });
+}
+
+const logStream = createWriteStream(logPath, { flags: 'a' });
 
 export const logger = {
   info: (message: string) => {
