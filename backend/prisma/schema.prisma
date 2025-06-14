@@ -1,0 +1,89 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id       Int     @id @default(autoincrement())
+  email    String  @unique
+  password String?
+  googleId String? @unique
+  role     Role    @default(USER)
+  name     String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  borrows Borrow[]
+  reviews Review[]
+  bookmarks Bookmark[]
+}
+
+model Book{
+  id Int @id @default(autoincrement())
+  title String 
+  author String
+  description String
+  categoryId Int
+  category Category @relation(fields: [categoryId] , references: [id])
+  coverImage String 
+  ebookUrl String 
+  totalCopies Int
+  borrowedCopies Int @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  reviews Review[]
+  borrows Borrow[]
+  bookmarks Bookmark[]
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+model Borrow{
+  id Int  @id @default(autoincrement())
+  userId Int 
+  user User @relation(fields: [userId] , references: [id])
+  bookId Int
+  book Book @relation(fields: [bookId] , references: [id])
+  borrowDate DateTime @default(now())
+  dueDate DateTime 
+  returnDate DateTime?
+  fine Float @default(0)
+}
+
+model Review{
+  id Int @id @default(autoincrement())
+  userId Int
+  user User @relation(fields: [userId] , references: [id])
+  bookId Int 
+  book Book @relation(fields: [bookId] , references: [id])
+  rating Int
+  comment String?
+  createdAt DateTime @default(now())
+}
+
+model Category{
+  id Int @id @default(autoincrement())
+  name String @unique
+  books Book[]
+}
+
+model Bookmark{
+  id Int @id @default(autoincrement())
+  userId Int
+  user User @relation(fields: [userId] , references: [id])
+  bookId Int
+  book Book @relation(fields: [bookId] , references: [id])
+  createdAt DateTime @default(now())
+}
