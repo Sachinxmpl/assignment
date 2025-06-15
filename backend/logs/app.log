@@ -27,3 +27,13 @@
 [2025-06-14T15:58:55.974Z] ERROR: Error [580cba92-876a-4d7e-9418-c43ba127a759] on GET /auth/google - [object Object]
 [2025-06-14T15:59:09.101Z] ERROR: Error [38c032a1-e2b5-44e7-9150-aef1682a9295] on GET /auth/google - [object Object]
 [2025-06-14T16:02:41.270Z] ERROR: Error [709adf4e-a8d2-4123-995d-b3de6c8000b0] on GET /auth/google - [object Object]
+[2025-06-15T05:24:40.422Z] ERROR: Error [55477c54-db5b-4082-8447-0b1404b64db0] on GET /auth/google - [object Object]
+[2025-06-15T05:24:47.733Z] ERROR: Error logging user - Error: Invalid Credentials
+[2025-06-15T05:24:50.627Z] ERROR: Error logging user - Error: Invalid Credentials
+[2025-06-15T05:24:55.878Z] INFO: User registered: sachinxmpl6@gmail.com
+[2025-06-15T05:43:42.151Z] INFO: User logged in admin@example.com
+[2025-06-15T05:44:30.546Z] INFO: User logged in admin@example.com
+[2025-06-15T05:46:26.932Z] INFO: User logged in sachinxmpl6@gmail.com
+[2025-06-15T05:46:33.034Z] INFO: Book borrowed: 1 by user 2
+[2025-06-15T05:48:27.398Z] INFO: User logged in admin@example.com
+[2025-06-15T06:29:30.626Z] INFO: User logged in sachinxmpl6@gmail.com

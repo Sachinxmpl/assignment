@@ -12,7 +12,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.overDueNotification = exports.sendDueReminder = exports.transporter = void 0;
+exports.setOverdueNotification = exports.sendDueReminder = exports.transporter = void 0;
 const nodemailer_1 = __importDefault(require("nodemailer"));
 exports.transporter = nodemailer_1.default.createTransport({
     service: "gmail",
@@ -30,7 +30,7 @@ const sendDueReminder = (to, bookTitle, dueDate) => __awaiter(void 0, void 0, vo
     });
 });
 exports.sendDueReminder = sendDueReminder;
-const overDueNotification = (to, bookTitle, fine) => __awaiter(void 0, void 0, void 0, function* () {
+const setOverdueNotification = (to, bookTitle, fine) => __awaiter(void 0, void 0, void 0, function* () {
     yield exports.transporter.sendMail({
         from: process.env.EMAIL_USER,
         to,
@@ -38,4 +38,4 @@ const overDueNotification = (to, bookTitle, fine) => __awaiter(void 0, void 0, v
         html: `<p>Your borrowed book "${bookTitle}" is overdue. You have incurred a fine of $${fine}. Please return the book as soon as possible.</p>`,
     });
 });
-exports.overDueNotification = overDueNotification;
+exports.setOverdueNotification = setOverdueNotification;

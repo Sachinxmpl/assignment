@@ -14,17 +14,27 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const db_1 = __importDefault(require("./config/db"));
+const cors_1 = __importDefault(require("cors"));
 const dotenv_1 = __importDefault(require("dotenv"));
 const passport_1 = __importDefault(require("passport"));
 const error_1 = require("./middlewares/error");
 const authRoutes_1 = __importDefault(require("./routes/authRoutes"));
 const bookRoutes_1 = __importDefault(require("./routes/bookRoutes"));
+const borrowRoutes_1 = __importDefault(require("./routes/borrowRoutes"));
+const categoryRoutes_1 = __importDefault(require("./routes/categoryRoutes"));
+const reviewRoutes_1 = __importDefault(require("./routes/reviewRoutes"));
+const userRoutes_1 = __importDefault(require("./routes/userRoutes"));
 dotenv_1.default.config();
 const app = (0, express_1.default)();
+app.use((0, cors_1.default)({ origin: process.env.FRONTEND_URL, credentials: true }));
 app.use(express_1.default.json());
 app.use(passport_1.default.initialize());
 app.use('/auth', authRoutes_1.default);
 app.use('/books', bookRoutes_1.default);
+app.use('/borrows', borrowRoutes_1.default);
+app.use('/categories', categoryRoutes_1.default);
+app.use('/reviews', reviewRoutes_1.default);
+app.use('/users', userRoutes_1.default);
 app.use(error_1.errorMiddleware);
 const port = process.env.PORT || 3000;
 function startServer() {
