@@ -21,7 +21,7 @@ export const sendDueReminder = async (
     });
 };
 
-export const overDueNotification = async (
+export const setOverdueNotification = async (
     to: string,
     bookTitle: string,
     fine: number

@@ -19,29 +19,22 @@ const protected_route = (req, res, next) => __awaiter(void 0, void 0, void 0, fu
     var _a;
     const token = (_a = req.headers.authorization) === null || _a === void 0 ? void 0 : _a.split(" ")[1];
     if (!token) {
-        return res.status(401).json({
-            message: "NO token provided",
-        });
+        res.status(401).json({ message: "NO token provided" });
+        return;
     }
     try {
         const decoded = jsonwebtoken_1.default.verify(token, process.env.JWT_SECRET);
-        const user = yield db_1.default.user.findUnique({
-            where: {
-                id: decoded.id,
-            },
-        });
+        const user = yield db_1.default.user.findUnique({ where: { id: decoded.id } });
         if (!user) {
-            return res.status(401).json({
-                message: "user not found",
-            });
+            res.status(401).json({ message: "user not found" });
+            return;
         }
         req.user = user;
         next();
     }
     catch (error) {
-        return res.status(401).json({
-            message: "Invalid token",
-        });
+        res.status(401).json({ message: "Invalid token" });
+        return;
     }
 });
 exports.protected_route = protected_route;

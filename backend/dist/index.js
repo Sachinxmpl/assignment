@@ -18,11 +18,13 @@ const dotenv_1 = __importDefault(require("dotenv"));
 const passport_1 = __importDefault(require("passport"));
 const error_1 = require("./middlewares/error");
 const authRoutes_1 = __importDefault(require("./routes/authRoutes"));
+const bookRoutes_1 = __importDefault(require("./routes/bookRoutes"));
 dotenv_1.default.config();
 const app = (0, express_1.default)();
 app.use(express_1.default.json());
 app.use(passport_1.default.initialize());
 app.use('/auth', authRoutes_1.default);
+app.use('/books', bookRoutes_1.default);
 app.use(error_1.errorMiddleware);
 const port = process.env.PORT || 3000;
 function startServer() {

@@ -23,3 +23,7 @@
     "message": "Required"
   }
 ]
+[2025-06-14T15:58:40.665Z] ERROR: Error [7d369834-edd0-4050-9c04-4e4fb911c18c] on GET /auth/google - [object Object]
+[2025-06-14T15:58:55.974Z] ERROR: Error [580cba92-876a-4d7e-9418-c43ba127a759] on GET /auth/google - [object Object]
+[2025-06-14T15:59:09.101Z] ERROR: Error [38c032a1-e2b5-44e7-9150-aef1682a9295] on GET /auth/google - [object Object]
+[2025-06-14T16:02:41.270Z] ERROR: Error [709adf4e-a8d2-4123-995d-b3de6c8000b0] on GET /auth/google - [object Object]
