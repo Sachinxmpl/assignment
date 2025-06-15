@@ -19,6 +19,7 @@ export interface Book {
 }
 
 export interface Borrow {
+  userId: number;
   id: number;
   bookId: number;
   book: Book;

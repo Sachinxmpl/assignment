@@ -34,6 +34,7 @@ const getBookById = (async (req: Request, res: Response) => {
 const createBook = [
     validationMiddleware(bookSchema),
     async (req: Request, res: Response) => {
+        console.log('inside creating boook ++++++++++++++++++++++++') ;
         try {
             if (
                 !req.files ||

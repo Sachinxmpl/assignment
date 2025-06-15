@@ -5,14 +5,13 @@ import { Navbar } from './components/Navbar';
 import { Home } from './pages/Home';
 import { BookDetailPage } from './pages/BookDetailPage';
 import { Login } from './pages/Login';
-import { MyBooks } from './pages/MyBooks';
 import { AdminDashboardPage } from './pages/AdminDashboardPage';
 import { Register } from './pages/Register';
 import { UserDashboard } from './components/Dashboard/UserDashboard';
-
+import { Profile } from './pages/Profile';
 import { useAuth } from './hooks/useAuth';
 import type { JSX } from 'react';
-import { Profile } from './pages/Profile';
+import { MyBooks } from './pages/MyBooks';
 
 const ProtectedRoute = ({ children }: { children: JSX.Element }) => {
   const { user, loading } = useAuth();
@@ -35,41 +34,13 @@ export const App = () => {
         <Route path="/books/:id" element={<BookDetailPage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        <Route
-          path="/my-books"
-          element={
-            <ProtectedRoute>
-              <MyBooks />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/dashboard"
-          element={
-            <ProtectedRoute>
-              <UserDashboard />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/admin-dashboard"
-          element={
-            <AdminRoute>
-              <AdminDashboardPage />
-            </AdminRoute>
-          }
-        />
-        <Route
-          path="/profile"
-          element={
-            <ProtectedRoute>
-              <Profile />
-            </ProtectedRoute>
-          }
-        />
+        <Route path="/my-books" element={<ProtectedRoute><MyBooks /></ProtectedRoute>} />
+        <Route path="/dashboard" element={<ProtectedRoute><UserDashboard /></ProtectedRoute>} />
+        <Route path="/admin-dashboard" element={<AdminRoute><AdminDashboardPage /></AdminRoute>} />
+        <Route path="/profile" element={<ProtectedRoute><Profile /></ProtectedRoute>} />
       </Routes>
       <ToastContainer
-        position="top-right"
+        position="bottom-right"
         autoClose={3000}
         hideProgressBar={false}
         newestOnTop

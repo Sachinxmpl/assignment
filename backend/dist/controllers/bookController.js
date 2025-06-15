@@ -47,6 +47,7 @@ const getBookById = ((req, res) => __awaiter(void 0, void 0, void 0, function* (
 const createBook = [
     (0, validationMiddleware_1.validationMiddleware)(bookSchema_1.bookSchema),
     (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+        console.log('inside creating boook ++++++++++++++++++++++++');
         try {
             if (!req.files ||
                 typeof req.files !== 'object' ||

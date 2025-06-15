@@ -37,3 +37,886 @@
 [2025-06-15T05:46:33.034Z] INFO: Book borrowed: 1 by user 2
 [2025-06-15T05:48:27.398Z] INFO: User logged in admin@example.com
 [2025-06-15T06:29:30.626Z] INFO: User logged in sachinxmpl6@gmail.com
+[2025-06-15T06:30:53.717Z] INFO: User logged in: sachinxmpl6@gmail.com
+[2025-06-15T06:30:59.443Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T06:30:59.480Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T06:30:59.839Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T06:30:59.872Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T06:31:00.356Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T06:31:00.591Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T06:31:00.606Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T06:31:04.380Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T06:31:04.396Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T06:31:36.878Z] INFO: User logged in: admin@example.com
+[2025-06-15T06:31:42.847Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:42.873Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:45.926Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:45.952Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:46.041Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:46.069Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:48.454Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:48.475Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:49.424Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:49.442Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:49.525Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:49.551Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:50.584Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:50.620Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:50.731Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:50.754Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:50.899Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:50.940Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:50.966Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:50.990Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:51.071Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:51.096Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:51.162Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:51.192Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:51.497Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:51.521Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:51.625Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:51.646Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:51.939Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:51.964Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:53.325Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:53.350Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:55.818Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:55.841Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:56.531Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:56.562Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:56.706Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:56.739Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:57.073Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:57.092Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:57.127Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T06:31:57.151Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T12:00:12.203Z] INFO: User logged in: sachinxmpl6@gmail.com
+[2025-06-15T12:00:17.302Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:00:17.323Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:07:15.897Z] INFO: User logged in: sachinxmpl6@gmail.com
+[2025-06-15T12:07:28.763Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:07:28.774Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:07:28.785Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:07:28.798Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:07:28.809Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:07:28.821Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:08:50.562Z] INFO: User logged in: sachinxmpl6@gmail.com
+[2025-06-15T12:08:53.193Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:08:53.224Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:08:55.143Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:08:55.167Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:08:57.106Z] INFO: Book borrowed: 2 by user 2
+[2025-06-15T12:08:59.261Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:08:59.285Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:08:59.344Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:08:59.363Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:09:05.723Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:09:05.758Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:15:11.754Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:15:11.771Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:15:38.420Z] INFO: User logged in: sachinxmpl6@gmail.com
+[2025-06-15T12:15:42.295Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:15:42.327Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:16:08.008Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:16:08.243Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:16:08.259Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:16:09.025Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:16:09.048Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:16:09.369Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:16:09.385Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:16:53.381Z] INFO: User logged in: sachinxmpl6@gmail.com
+[2025-06-15T12:18:34.062Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:18:34.090Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:18:36.271Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:18:36.293Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:18:36.332Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:18:36.347Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:19:20.567Z] INFO: User logged in: admin@example.com
+[2025-06-15T12:20:09.956Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T12:20:09.990Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T12:20:11.673Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T12:20:11.685Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T12:20:11.770Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T12:20:11.783Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T12:20:13.272Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T12:20:13.286Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T12:20:13.353Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T12:20:13.371Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T12:20:14.349Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T12:20:14.372Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T12:20:21.239Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T12:20:21.253Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T12:20:24.130Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-15T12:20:25.554Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-15T12:20:25.841Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-15T12:20:26.177Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-15T12:20:26.389Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-15T12:20:27.086Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-15T12:20:28.082Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T12:20:28.095Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T12:20:29.436Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T12:20:29.454Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T12:20:29.511Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T12:20:29.526Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T12:20:30.816Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T12:20:30.835Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T12:20:30.888Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T12:20:30.907Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T12:20:32.113Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T12:20:32.136Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T12:23:40.761Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T12:23:50.583Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T12:23:56.588Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T12:26:22.775Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T12:26:22.799Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T12:26:34.511Z] INFO: User logged in: sachinxmpl6@gmail.com
+[2025-06-15T12:26:50.009Z] INFO: User logged in: sachinxmpl6@gmail.com
+[2025-06-15T12:27:16.906Z] INFO: User logged in: sachinxmpl6@gmail.com
+[2025-06-15T12:31:40.712Z] INFO: User logged in: sachinxmpl6@gmail.com
+[2025-06-15T12:31:54.716Z] INFO: User logged in: sachinxmpl6@gmail.com
+[2025-06-15T12:33:29.425Z] INFO: User logged in: sachinxmpl6@gmail.com
+[2025-06-15T12:33:34.652Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:33:34.679Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:33:36.103Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:33:36.141Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:35:35.640Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:36:12.965Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:36:12.984Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:36:14.966Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:36:14.996Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:36:36.295Z] INFO: User logged in: sachinxmpl6@gmail.com
+[2025-06-15T12:36:36.380Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:36:36.399Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:36:36.463Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:36:36.481Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:36:43.041Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:36:43.056Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:36:45.080Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:36:45.105Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:36:45.503Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:36:45.547Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:36:45.986Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:36:46.008Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:36:46.204Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:36:46.224Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:36:46.462Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:36:46.490Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:37:19.438Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:37:19.451Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:37:33.706Z] INFO: User logged in: sachinxmpl6@gmail.com
+[2025-06-15T12:37:33.898Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:37:33.910Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:37:33.938Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:37:33.954Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:37:41.728Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:37:41.750Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:37:44.052Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:37:44.067Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:37:45.285Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:37:45.295Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:37:49.365Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:37:49.388Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:37:50.815Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:37:50.838Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:37:51.253Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:37:51.266Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:37:53.292Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:37:53.325Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:37:53.977Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T12:37:54.011Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T13:09:34.464Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T13:09:34.490Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T13:09:34.911Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T13:09:34.924Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T13:09:35.433Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T13:09:35.450Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T13:10:04.588Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T13:11:51.369Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T13:11:51.383Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T13:11:52.778Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T13:11:52.794Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T13:17:18.959Z] INFO: User logged in: sachinxmpl6@gmail.com
+[2025-06-15T13:17:19.166Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T13:17:19.184Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T13:17:19.221Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T13:17:19.243Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T13:17:25.066Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T13:17:25.092Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T13:17:25.121Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T13:17:25.151Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T13:17:25.172Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T13:17:25.195Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T13:17:49.900Z] INFO: User logged in: admin@example.com
+[2025-06-15T13:17:50.047Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T13:17:50.066Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T13:17:50.086Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T13:17:50.106Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T13:17:54.839Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T13:17:54.865Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T13:17:54.897Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T13:17:54.925Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T13:17:54.946Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T13:17:54.972Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T13:17:59.467Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T13:17:59.491Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T13:17:59.587Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T13:17:59.615Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T13:18:32.637Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T13:18:32.654Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T13:33:06.242Z] INFO: User logged in: sachinxmpl6@gmail.com
+[2025-06-15T13:33:06.526Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T13:33:06.544Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T13:33:06.558Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T13:33:06.577Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T13:35:59.841Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T13:35:59.885Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T13:37:34.076Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T13:37:34.107Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T15:44:43.822Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T15:44:43.852Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T15:54:09.535Z] INFO: User logged in: sachinxmpl6@gmail.com
+[2025-06-15T15:54:09.693Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T15:54:09.712Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T15:54:09.739Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T15:54:09.762Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T15:54:17.715Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T15:54:17.737Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T15:54:21.226Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T15:54:21.240Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T15:54:21.278Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T15:54:21.301Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T15:55:49.560Z] INFO: User logged in: sachinxmpl6@gmail.com
+[2025-06-15T15:55:49.767Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T15:55:49.787Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T15:55:49.804Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T15:55:49.824Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T15:56:52.808Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T15:56:52.827Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T15:56:54.164Z] ERROR: Error [bdc462f7-2607-4e52-95c4-fba8f201ecfe] on GET /auth/google - [object Object]
+[2025-06-15T15:56:56.476Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T15:56:56.491Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T15:57:13.886Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T15:57:13.912Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T15:57:14.010Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T15:57:14.039Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T15:58:43.128Z] INFO: User logged in: sachinxmpl6@gmail.com
+[2025-06-15T15:58:53.188Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T15:58:53.213Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T15:58:56.162Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T15:58:56.176Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T15:58:58.569Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T15:58:58.600Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:05:04.624Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:05:04.663Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:05:13.227Z] INFO: User logged in: sachinxmpl6@gmail.com
+[2025-06-15T16:05:13.591Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:05:13.616Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:05:19.346Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:05:19.363Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:05:19.403Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:05:19.428Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:05:21.429Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:05:21.452Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:06:43.186Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:06:43.216Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:06:43.242Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:06:43.267Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:07:14.374Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:07:14.404Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:18:47.793Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:18:47.809Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:18:47.834Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:18:47.848Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:19:00.561Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:19:00.575Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:19:03.305Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:19:03.343Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:19:03.455Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:19:03.477Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:19:04.289Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:19:04.312Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:19:06.004Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:19:06.031Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:19:31.038Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:19:31.054Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:22:10.218Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:22:10.239Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:22:10.260Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:22:10.279Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:22:17.968Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:22:17.980Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:22:17.994Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:22:18.012Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:22:23.043Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:22:23.053Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:22:23.068Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:22:23.087Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:22:26.053Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:22:26.072Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:22:26.086Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:22:26.105Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:22:29.100Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:22:29.122Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:22:29.145Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:22:29.164Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:22:36.208Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:22:36.225Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:22:36.243Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:22:36.264Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:22:44.013Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:22:44.032Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:22:45.982Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:22:46.001Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:22:46.949Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:22:46.967Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T16:23:08.450Z] INFO: User logged in: admin@example.com
+[2025-06-15T16:23:08.888Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:23:08.916Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:23:12.134Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:23:12.148Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:23:12.236Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:23:12.264Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:23:15.817Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:23:15.838Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:23:15.873Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:23:15.897Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:23:20.914Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:23:20.939Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:26:28.133Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:26:28.159Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:26:29.965Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:26:29.985Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:26:30.115Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:26:30.145Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:26:31.362Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:26:31.376Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:26:31.419Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:26:31.434Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:26:31.880Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:26:31.891Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:26:31.953Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:26:31.966Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:26:32.398Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:26:32.413Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:26:32.506Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:26:32.524Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:26:33.576Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:26:33.605Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:26:33.697Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:26:33.715Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:26:37.450Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:26:37.470Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:26:37.497Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:26:37.521Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:26:37.590Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:26:37.610Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:07.434Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:07.455Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:11.215Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:11.240Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:11.408Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:11.438Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:12.890Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:12.911Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:12.984Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:13.009Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:13.497Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:13.519Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:13.619Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:13.632Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:13.884Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:13.895Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:14.078Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:14.093Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:14.429Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:14.444Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:14.488Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:14.509Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:14.842Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:14.856Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:14.903Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:14.916Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:42.419Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:42.442Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:45.921Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:45.934Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:46.077Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:46.105Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:49.936Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:49.962Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:49.990Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:50.011Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:52.244Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:52.257Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:52.342Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:52.357Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:53.303Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:53.314Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:53.397Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:53.419Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:53.586Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:53.608Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:53.678Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:53.694Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:54.274Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:54.293Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:54.371Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:54.383Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:54.881Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:54.892Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:54.994Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:28:55.004Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:31:27.858Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:31:27.886Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:31:29.423Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:31:29.438Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:32:03.196Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:32:03.224Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:32:03.244Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:32:03.264Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:32:03.344Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:32:03.383Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:32:59.081Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:32:59.092Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:32:59.104Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:32:59.116Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:32:59.205Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:32:59.217Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:33:01.007Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:33:01.033Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:33:01.088Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:33:01.115Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:33:02.982Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:33:03.007Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:33:03.180Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:33:03.210Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:33:05.112Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:33:05.146Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:33:05.258Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:33:05.323Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:33:06.144Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:33:06.171Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:33:06.383Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:33:06.403Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:33:07.584Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:33:07.602Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:33:07.700Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:33:07.737Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:33:10.692Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:33:10.716Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:33:10.820Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:33:10.891Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:33:11.596Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:33:11.625Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:33:11.737Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:33:11.759Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:33:12.578Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:33:12.593Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:33:12.763Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:33:12.863Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:34:09.964Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:34:09.999Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:34:10.116Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:34:10.142Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:34:30.260Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:34:30.284Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:34:36.755Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:34:36.788Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:34:36.920Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:34:36.934Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:34:56.024Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:34:56.056Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:34:56.127Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:34:56.163Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:35:02.002Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:35:02.021Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:35:02.099Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:35:02.149Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:35:57.112Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:35:57.127Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:35:57.281Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:35:57.319Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:36:21.229Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:36:21.258Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:38:12.825Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:38:12.840Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:38:12.861Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:38:12.880Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:43:59.048Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:43:59.065Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:43:59.082Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:43:59.099Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:44:06.360Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:44:06.382Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:44:06.411Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:44:06.452Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:44:10.392Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:44:10.406Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:44:10.420Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:44:10.435Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:45:02.386Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:45:02.406Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:45:02.426Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:45:02.441Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:45:05.345Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:45:05.363Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:45:05.383Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:45:05.405Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:45:39.016Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:45:39.054Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:45:42.237Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T16:45:42.281Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:01:03.279Z] INFO: User logged in: sachinxmpl6@gmail.com
+[2025-06-15T17:01:03.731Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T17:01:03.748Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T17:01:05.210Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T17:01:05.234Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T17:01:05.306Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T17:01:05.419Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T17:20:15.108Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T17:20:15.134Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T17:20:26.526Z] INFO: User logged in: admin@example.com
+[2025-06-15T17:20:26.916Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:20:26.944Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:20:29.557Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:20:29.574Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:23:56.925Z] ERROR: Validation error - [
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "categoryId"
+    ],
+    "message": "Expected number, received string"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "totalCopies"
+    ],
+    "message": "Expected number, received string"
+  }
+]
+[2025-06-15T17:23:59.456Z] ERROR: Validation error - [
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "categoryId"
+    ],
+    "message": "Expected number, received string"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "totalCopies"
+    ],
+    "message": "Expected number, received string"
+  }
+]
+[2025-06-15T17:24:00.920Z] ERROR: Validation error - [
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "categoryId"
+    ],
+    "message": "Expected number, received string"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "totalCopies"
+    ],
+    "message": "Expected number, received string"
+  }
+]
+[2025-06-15T17:24:01.140Z] ERROR: Validation error - [
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "categoryId"
+    ],
+    "message": "Expected number, received string"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "totalCopies"
+    ],
+    "message": "Expected number, received string"
+  }
+]
+[2025-06-15T17:24:01.410Z] ERROR: Validation error - [
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "categoryId"
+    ],
+    "message": "Expected number, received string"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "totalCopies"
+    ],
+    "message": "Expected number, received string"
+  }
+]
+[2025-06-15T17:24:01.579Z] ERROR: Validation error - [
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "categoryId"
+    ],
+    "message": "Expected number, received string"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "totalCopies"
+    ],
+    "message": "Expected number, received string"
+  }
+]
+[2025-06-15T17:24:01.741Z] ERROR: Validation error - [
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "categoryId"
+    ],
+    "message": "Expected number, received string"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "totalCopies"
+    ],
+    "message": "Expected number, received string"
+  }
+]
+[2025-06-15T17:24:02.394Z] ERROR: Validation error - [
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "categoryId"
+    ],
+    "message": "Expected number, received string"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "totalCopies"
+    ],
+    "message": "Expected number, received string"
+  }
+]
+[2025-06-15T17:24:02.484Z] ERROR: Validation error - [
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "categoryId"
+    ],
+    "message": "Expected number, received string"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "totalCopies"
+    ],
+    "message": "Expected number, received string"
+  }
+]
+[2025-06-15T17:24:02.684Z] ERROR: Validation error - [
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "categoryId"
+    ],
+    "message": "Expected number, received string"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "totalCopies"
+    ],
+    "message": "Expected number, received string"
+  }
+]
+[2025-06-15T17:26:49.319Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:26:49.337Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:26:53.514Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:26:53.541Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:28:02.351Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:28:02.366Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:28:02.387Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:28:02.404Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:28:03.065Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:28:03.098Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:33:27.115Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:33:27.142Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:33:27.234Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:33:27.265Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:33:27.957Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:33:27.983Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:35:18.653Z] ERROR: Validation error - [
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "categoryId"
+    ],
+    "message": "Expected number, received string"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "totalCopies"
+    ],
+    "message": "Expected number, received string"
+  }
+]
+[2025-06-15T17:46:10.121Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:46:10.136Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:46:10.152Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:46:10.176Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:46:20.828Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:46:20.882Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:46:20.975Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:46:20.992Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:46:28.370Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:46:28.396Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:46:33.907Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-15T17:46:35.091Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-15T17:46:35.956Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-15T17:46:45.642Z] INFO: User logged in: sachinxmpl6@gmail.com
+[2025-06-15T17:46:46.285Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T17:46:46.333Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T17:46:47.510Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T17:46:47.527Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T17:46:53.557Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T17:46:53.599Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T17:46:55.255Z] INFO: Book returned: borrow ID 2
+[2025-06-15T17:47:02.796Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T17:47:02.819Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T17:47:27.446Z] INFO: User logged in: admin@example.com
+[2025-06-15T17:47:28.078Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:47:28.102Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:47:31.472Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:47:31.507Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:47:31.574Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:47:31.605Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:47:32.561Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:47:32.581Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:48:27.361Z] ERROR: Validation error - [
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "categoryId"
+    ],
+    "message": "Expected number, received string"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "totalCopies"
+    ],
+    "message": "Expected number, received string"
+  }
+]
+[2025-06-15T17:48:39.605Z] ERROR: Validation error - [
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "categoryId"
+    ],
+    "message": "Expected number, received string"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "totalCopies"
+    ],
+    "message": "Expected number, received string"
+  }
+]
+[2025-06-15T17:51:30.685Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:51:30.706Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:51:30.724Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:51:30.738Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:52:19.917Z] ERROR: Validation error - [
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "categoryId"
+    ],
+    "message": "Expected number, received string"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "totalCopies"
+    ],
+    "message": "Expected number, received string"
+  }
+]
+[2025-06-15T17:53:48.638Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:53:48.652Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:53:48.666Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:53:48.678Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:56:54.690Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:56:54.725Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:56:54.753Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T17:56:54.778Z] INFO: Fetched current user: admin@example.com
