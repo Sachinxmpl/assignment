@@ -11,6 +11,8 @@ export const bookService = {
         ebookUrl: string;
         totalCopies: number;
     }) => {
+        console.log("This is inside hte debuggin conloe ")
+        console.log(data)
         return dbclient.book.create({
             data: {
                 ...data,

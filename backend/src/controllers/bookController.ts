@@ -5,7 +5,7 @@ import { validationMiddleware } from '../middlewares/validationMiddleware';
 import cloudinary from '../config/cloudinary';
 
 
-const getBooks =( async (req: Request, res: Response) => {
+const getBooks = (async (req: Request, res: Response) => {
     try {
         const { category, author, rating, availability, sortBy } = req.query;
         const books = await bookService.getBooks({
@@ -34,8 +34,9 @@ const getBookById = (async (req: Request, res: Response) => {
 const createBook = [
     validationMiddleware(bookSchema),
     async (req: Request, res: Response) => {
-        console.log('inside creating boook ++++++++++++++++++++++++') ;
+        console.log('inside creating boook ++++++++++++++++++++++++');
         try {
+            console.log('===========================')
             if (
                 !req.files ||
                 typeof req.files !== 'object' ||
@@ -48,16 +49,32 @@ const createBook = [
             if (!coverImage || !ebookFile) {
                 return res.status(400).json({ message: 'Cover image and ebook file are required' });
             }
-
+            console.log('$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$')
             const coverImageResult = await cloudinary.uploader.upload(coverImage[0].path);
-            const ebookFileResult = await cloudinary.uploader.upload(ebookFile[0].path, { resource_type: 'raw' });
-
-            const book = await bookService.createBook({
-                ...req.body,
-                coverImage: coverImageResult.secure_url,
-                ebookUrl: ebookFileResult.secure_url,
+            const ebookFileResult = await cloudinary.uploader.upload(ebookFile[0].path, {
+                resource_type: 'raw',
+                use_filename: true,
+                unique_filename: false,
+                filename_override: ebookFile[0].originalname,
             });
-            res.status(201).json(book);
+            console.log(ebookFileResult)
+            console.log("cloudinary upload successfull")
+            try {
+                const bookData = {
+                    ...req.body,
+                    categoryId: Number(req.body.categoryId),
+                    totalCopies: Number(req.body.totalCopies),
+                    coverImage: coverImageResult.secure_url,
+                    ebookUrl: `${ebookFileResult.secure_url}?fl_attachment=${ebookFile[0].originalname}`,
+                }
+                console.log("Final Payload ", bookData)
+                const book = await bookService.createBook(bookData);
+                console.log("Finished creating book data")
+                res.status(201).json(book);
+            } catch (error) {
+                console.log("erro callign the bookservice.createBook")
+                res.status(500).json({ message: 'Failed to create book' })
+            }
         } catch (error) {
             res.status(500).json({ message: 'Error creating book', error });
         }
@@ -99,13 +116,13 @@ const updateBook = [
 ];
 
 const deleteBook = (async (req, res) => {
-  try {
-    const book = await bookService.deleteBook(parseInt(req.params.id));
-    if (!book) return res.status(404).json({ message: 'Book not found' });
-    res.json({ message: 'Book deleted successfully' });
-  } catch (error) {
-    res.status(500).json({ message: 'Error deleting book', error });
-  }
+    try {
+        const book = await bookService.deleteBook(parseInt(req.params.id));
+        if (!book) return res.status(404).json({ message: 'Book not found' });
+        res.json({ message: 'Book deleted successfully' });
+    } catch (error) {
+        res.status(500).json({ message: 'Error deleting book', error });
+    }
 }) as RequestHandler;
 
 export const bookController = {

@@ -79,6 +79,7 @@ const getCurrentUser = (async (req: CustomRequest, res: Response) => {
 }) as RequestHandler;
 
 const googleCallback = (async (req: CustomRequest, res: Response) => {
+    console.log("Inside backend google backback url ")
     try {
         const user = req.user as any;
         const token = jwt.sign(

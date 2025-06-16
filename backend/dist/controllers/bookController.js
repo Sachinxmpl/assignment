@@ -49,6 +49,7 @@ const createBook = [
     (req, res) => __awaiter(void 0, void 0, void 0, function* () {
         console.log('inside creating boook ++++++++++++++++++++++++');
         try {
+            console.log('===========================');
             if (!req.files ||
                 typeof req.files !== 'object' ||
                 !('coverImage' in req.files) ||
@@ -59,10 +60,27 @@ const createBook = [
             if (!coverImage || !ebookFile) {
                 return res.status(400).json({ message: 'Cover image and ebook file are required' });
             }
+            console.log('$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$');
             const coverImageResult = yield cloudinary_1.default.uploader.upload(coverImage[0].path);
-            const ebookFileResult = yield cloudinary_1.default.uploader.upload(ebookFile[0].path, { resource_type: 'raw' });
-            const book = yield bookService_1.bookService.createBook(Object.assign(Object.assign({}, req.body), { coverImage: coverImageResult.secure_url, ebookUrl: ebookFileResult.secure_url }));
-            res.status(201).json(book);
+            const ebookFileResult = yield cloudinary_1.default.uploader.upload(ebookFile[0].path, {
+                resource_type: 'raw',
+                use_filename: true,
+                unique_filename: false,
+                filename_override: ebookFile[0].originalname,
+            });
+            console.log(ebookFileResult);
+            console.log("cloudinary upload successfull");
+            try {
+                const bookData = Object.assign(Object.assign({}, req.body), { categoryId: Number(req.body.categoryId), totalCopies: Number(req.body.totalCopies), coverImage: coverImageResult.secure_url, ebookUrl: `${ebookFileResult.secure_url}?fl_attachment=${ebookFile[0].originalname}` });
+                console.log("Final Payload ", bookData);
+                const book = yield bookService_1.bookService.createBook(bookData);
+                console.log("Finished creating book data");
+                res.status(201).json(book);
+            }
+            catch (error) {
+                console.log("erro callign the bookservice.createBook");
+                res.status(500).json({ message: 'Failed to create book' });
+            }
         }
         catch (error) {
             res.status(500).json({ message: 'Error creating book', error });

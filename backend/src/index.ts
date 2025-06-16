@@ -2,7 +2,8 @@ import express from "express";
 import prismaClient from "./config/db";
 import cors from "cors";
 import dotenv from "dotenv";
-import passport from "passport";
+
+import session from "express-session"
 import { errorMiddleware } from "./middlewares/error";
 
 import authRoutes from './routes/authRoutes'
@@ -11,6 +12,8 @@ import borrowRoutes from './routes/borrowRoutes'
 import categoryRoutes from './routes/categoryRoutes'
 import reviewRoutes from './routes/reviewRoutes'
 import userRoutes from './routes/userRoutes'
+import './config/passport'
+import passport from "passport";
 
 dotenv.config();
 
@@ -18,10 +21,12 @@ const app = express();
 
 app.use(cors({ origin: process.env.FRONTEND_URL, credentials: true }));
 app.use(express.json())
+app.use(session({ secret: process.env.SESSION_SECRET!, resave: false, saveUninitialized: false }));
 app.use(passport.initialize())
+app.use(passport.session())
 
-app.use('/auth' , authRoutes)
-app.use('/books' , bookRoutes)
+app.use('/auth', authRoutes)
+app.use('/books', bookRoutes)
 app.use('/borrows', borrowRoutes);
 app.use('/categories', categoryRoutes);
 app.use('/reviews', reviewRoutes);

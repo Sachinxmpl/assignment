@@ -2,13 +2,12 @@ import dbclient from '../src/config/db';
 import bcrypt from 'bcryptjs';
 
 async function main() {
-  // Create admin user
-  const hashedPassword = await bcrypt.hash('admin123', 10);
+  const hashedPassword = await bcrypt.hash('adminlogin', 10);
   await dbclient.user.upsert({
     where: { email: 'admin@example.com' },
     update: {},
     create: {
-      email: 'admin@example.com',
+      email: 'admin@gmail.com',
       password: hashedPassword,
       name: 'Admin',
       role: 'ADMIN',
@@ -30,31 +29,6 @@ async function main() {
       create: category,
     });
   }
-  await dbclient.book.createMany({
-    data: [
-      {
-        title: 'Sample Book 1',
-        author: 'Author 1',
-        description: 'A fascinating tale of adventure.',
-        categoryId: 1,
-        coverImage: 'https://via.placeholder.com/150',
-        ebookUrl: 'https://via.placeholder.com/sample.pdf',
-        totalCopies: 5,
-        borrowedCopies: 0,
-      },
-      {
-        title: 'Sample Book 2',
-        author: 'Author 2',
-        description: 'A deep dive into scientific discoveries.',
-        categoryId: 3,
-        coverImage: 'https://via.placeholder.com/150',
-        ebookUrl: 'https://via.placeholder.com/sample.pdf',
-        totalCopies: 3,
-        borrowedCopies: 0,
-      },
-    ],
-    skipDuplicates: true,
-  });
 
   console.log('Database seeded successfully');
 }

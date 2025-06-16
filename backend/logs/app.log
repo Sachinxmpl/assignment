@@ -920,3 +920,202 @@
 [2025-06-15T17:56:54.725Z] INFO: Fetched current user: admin@example.com
 [2025-06-15T17:56:54.753Z] INFO: Fetched current user: admin@example.com
 [2025-06-15T17:56:54.778Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T18:08:11.306Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T18:08:11.325Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T18:08:11.352Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T18:08:11.380Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T18:14:04.828Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T18:14:04.855Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T18:14:04.884Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T18:14:04.917Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T18:14:32.124Z] ERROR: Validation error - [
+  {
+    "code": "too_small",
+    "minimum": 10,
+    "type": "string",
+    "inclusive": true,
+    "exact": false,
+    "message": "Description must be at least 10 characters",
+    "path": [
+      "description"
+    ]
+  }
+]
+[2025-06-15T18:15:34.402Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T18:15:34.437Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T18:15:40.779Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T18:15:40.806Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T18:15:43.375Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T18:15:43.390Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T18:15:50.017Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T18:15:50.040Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T18:15:50.092Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T18:15:50.119Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T18:23:26.049Z] INFO: User logged in: sachinxmpl6@gmail.com
+[2025-06-15T18:23:26.252Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T18:23:26.273Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T18:23:28.188Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T18:23:28.207Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T18:23:28.234Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T18:23:28.277Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-15T18:23:49.705Z] INFO: User logged in: admin@example.com
+[2025-06-15T18:23:49.945Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T18:23:49.966Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T18:23:53.677Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T18:23:53.699Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T18:23:53.730Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T18:23:53.763Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T18:23:54.372Z] INFO: Fetched current user: admin@example.com
+[2025-06-15T18:23:54.393Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T02:15:34.946Z] INFO: User logged in: admin@example.com
+[2025-06-16T02:15:36.361Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T02:15:36.386Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T02:15:43.457Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T02:15:43.476Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T02:15:45.888Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T02:15:45.914Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T02:21:22.168Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T02:21:22.186Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T02:21:22.209Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T02:21:22.239Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T02:21:25.400Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T02:21:25.424Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T02:21:25.486Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T02:21:25.509Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T02:21:26.031Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T02:21:26.046Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T02:41:07.205Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T02:41:07.236Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T02:41:29.819Z] INFO: User logged in: sachinxmpl6@gmail.com
+[2025-06-16T02:41:30.207Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-16T02:41:30.255Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-16T02:41:31.390Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-16T02:41:31.410Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-16T02:41:32.784Z] INFO: Book borrowed: 3 by user 2
+[2025-06-16T12:21:19.117Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-16T12:21:19.165Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-16T12:21:19.195Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-16T12:21:19.223Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-16T12:21:20.806Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-16T12:21:20.826Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-16T12:21:20.878Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-16T12:21:20.890Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-16T12:21:24.061Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-16T12:21:24.086Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-16T12:21:26.026Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-16T12:21:26.053Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-16T12:21:28.255Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-16T12:21:28.288Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-16T12:21:28.659Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-16T12:21:28.671Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-16T12:21:29.253Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-16T12:21:29.278Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-16T12:21:37.424Z] INFO: User logged in: sachinxmpl6@gmail.com
+[2025-06-16T12:21:37.693Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-16T12:21:37.710Z] INFO: Fetched current user: sachinxmpl6@gmail.com
+[2025-06-16T12:26:54.210Z] INFO: User logged in: admin@example.com
+[2025-06-16T12:26:54.559Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:26:54.586Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:26:57.400Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:26:57.418Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:26:57.476Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:26:57.507Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:26:58.001Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:26:58.027Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:45:26.264Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:45:26.287Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:45:47.714Z] INFO: User logged in: admin@example.com
+[2025-06-16T12:45:48.126Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:45:48.152Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:45:50.810Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:45:50.827Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:47:46.127Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:47:46.156Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:47:49.064Z] INFO: Book borrowed: 4 by user 3
+[2025-06-16T12:48:24.243Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:48:24.265Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:50:54.426Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:50:54.440Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:51:01.655Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:51:01.678Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:51:07.880Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:51:07.929Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:51:08.650Z] INFO: Book borrowed: 4 by user 3
+[2025-06-16T12:51:16.960Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:51:16.976Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:51:23.441Z] INFO: Book returned: borrow ID 5
+[2025-06-16T12:51:24.459Z] INFO: Book returned: borrow ID 4
+[2025-06-16T12:51:25.123Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-16T12:51:26.929Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-16T12:51:31.342Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:51:31.365Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:51:31.399Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:51:31.432Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:51:34.146Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:51:34.179Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:51:40.401Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:51:40.429Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:51:43.324Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:51:43.351Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:51:46.746Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-16T12:51:51.549Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-16T12:51:53.023Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-16T12:51:56.331Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-16T12:52:02.800Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:52:02.826Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:52:02.865Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:52:02.919Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:52:04.945Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:52:04.983Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:52:07.127Z] INFO: Book borrowed: 2 by user 3
+[2025-06-16T12:52:23.844Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:52:23.869Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:52:25.491Z] INFO: Book borrowed: 4 by user 3
+[2025-06-16T12:55:29.325Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:55:29.349Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:55:29.377Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:55:29.402Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:55:30.313Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:55:30.338Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:55:30.365Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:55:30.393Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:55:31.133Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:55:31.162Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:55:31.201Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:55:31.233Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:55:34.428Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:55:34.446Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:56:44.171Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:56:44.199Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T12:56:45.727Z] INFO: Book borrowed: 5 by user 3
+[2025-06-16T13:02:04.685Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T13:02:04.713Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T13:03:00.387Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T13:03:00.429Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T13:03:14.646Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T13:03:14.679Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T13:03:38.330Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T13:03:38.358Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T13:03:39.614Z] INFO: Book borrowed: 6 by user 3
+[2025-06-16T13:06:45.104Z] ERROR: Error logging in user - Error: Invalid Credentials
+[2025-06-16T13:06:58.265Z] INFO: User logged in: admin@example.com
+[2025-06-16T13:06:58.579Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T13:06:58.596Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T13:07:03.005Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T13:07:03.029Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T13:07:03.802Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T13:07:03.821Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T13:07:03.900Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T13:07:03.938Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T13:07:05.903Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T13:07:05.930Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T13:07:11.095Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T13:07:11.122Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T13:07:18.696Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T13:07:18.725Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T13:07:22.414Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T13:07:22.439Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T13:07:23.203Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T13:07:23.235Z] INFO: Fetched current user: admin@example.com
+[2025-06-16T13:07:26.377Z] ERROR: Error [328cadff-442f-4458-8ccb-89169fccc810] on GET /auth/google - [object Object]
+[2025-06-16T13:13:42.409Z] ERROR: Error [c2b12a97-3334-459c-a484-b81337da412c] on GET /auth/google - [object Object]

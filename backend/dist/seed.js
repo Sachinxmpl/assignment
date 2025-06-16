@@ -16,13 +16,12 @@ const db_1 = __importDefault(require("../src/config/db"));
 const bcryptjs_1 = __importDefault(require("bcryptjs"));
 function main() {
     return __awaiter(this, void 0, void 0, function* () {
-        // Create admin user
-        const hashedPassword = yield bcryptjs_1.default.hash('admin123', 10);
+        const hashedPassword = yield bcryptjs_1.default.hash('adminlogin', 10);
         yield db_1.default.user.upsert({
             where: { email: 'admin@example.com' },
             update: {},
             create: {
-                email: 'admin@example.com',
+                email: 'admin@gmail.com',
                 password: hashedPassword,
                 name: 'Admin',
                 role: 'ADMIN',
@@ -42,31 +41,6 @@ function main() {
                 create: category,
             });
         }
-        yield db_1.default.book.createMany({
-            data: [
-                {
-                    title: 'Sample Book 1',
-                    author: 'Author 1',
-                    description: 'A fascinating tale of adventure.',
-                    categoryId: 1,
-                    coverImage: 'https://via.placeholder.com/150',
-                    ebookUrl: 'https://via.placeholder.com/sample.pdf',
-                    totalCopies: 5,
-                    borrowedCopies: 0,
-                },
-                {
-                    title: 'Sample Book 2',
-                    author: 'Author 2',
-                    description: 'A deep dive into scientific discoveries.',
-                    categoryId: 3,
-                    coverImage: 'https://via.placeholder.com/150',
-                    ebookUrl: 'https://via.placeholder.com/sample.pdf',
-                    totalCopies: 3,
-                    borrowedCopies: 0,
-                },
-            ],
-            skipDuplicates: true,
-        });
         console.log('Database seeded successfully');
     });
 }

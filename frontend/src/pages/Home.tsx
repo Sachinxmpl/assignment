@@ -3,7 +3,7 @@ import { BookCard } from '../components/BookCard';
 import { bookApi } from '../services/bookApi';
 import type { Book } from '../types';
 import { toast } from 'react-toastify';
-import { Search, Filter, Star, BookOpen, TrendingUp, Clock } from 'lucide-react';
+import { Search, Filter, BookOpen } from 'lucide-react';
 
 export const Home = () => {
   const [books, setBooks] = useState<Book[]>([]);
@@ -179,15 +179,12 @@ export const Home = () => {
               >
                 <option value="">Default</option>
                 <option value="newest">
-                  <Clock size={16} className="inline mr-1" />
                   Newest First
                 </option>
                 <option value="rating">
-                  <Star size={16} className="inline mr-1" />
                   Highest Rated
                 </option>
                 <option value="popularity">
-                  <TrendingUp size={16} className="inline mr-1" />
                   Most Popular
                 </option>
                 <option value="title">A-Z</option>

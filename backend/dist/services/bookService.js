@@ -16,6 +16,8 @@ exports.bookService = void 0;
 const db_1 = __importDefault(require("../config/db"));
 exports.bookService = {
     createBook: (data) => __awaiter(void 0, void 0, void 0, function* () {
+        console.log("This is inside hte debuggin conloe ");
+        console.log(data);
         return db_1.default.book.create({
             data: Object.assign(Object.assign({}, data), { borrowedCopies: 0 })
         });
