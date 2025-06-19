@@ -8,8 +8,9 @@ import { Search, Filter, BookOpen } from 'lucide-react';
 export const Home = () => {
   const [books, setBooks] = useState<Book[]>([]);
   const [loading, setLoading] = useState(true);
+  const [categories, setCategories] = useState<{ id: string; name: string }[]>([]);
   const [filters, setFilters] = useState({
-    category: '',
+    category: '' as number | '',
     author: '',
     rating: undefined as number | undefined,
     availability: '',
@@ -22,7 +23,7 @@ export const Home = () => {
         setLoading(true);
         const fetchedBooks = await bookApi.getBooks(filters);
         setBooks(fetchedBooks);
-      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
       } catch (error) {
         toast.error('Failed to fetch books');
       } finally {
@@ -32,6 +33,22 @@ export const Home = () => {
 
     fetchBooks();
   }, [filters]);
+
+  useEffect(() => {
+    const fetchCategories = async () => {
+      try {
+        const res = await bookApi.getCategories();
+        console.log(res)
+        setCategories(res || []);
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      } catch (error) {
+        toast.error('Failed to fetch categories');
+      }
+    };
+
+
+    fetchCategories();
+  }, []);
 
   const handleFilterChange = (key: string, value: string | number | undefined) => {
     setFilters(prev => ({ ...prev, [key]: value }));
@@ -48,34 +65,9 @@ export const Home = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-amber-100">
-      <div className="container mx-auto px-4 py-8">
-        {/* Hero Section */}
-        {/* <div className="text-center mb-12">
-          <h1 className="text-5xl font-bold text-amber-900 mb-4">
-            Welcome to Digital Library
-          </h1>
-          <p className="text-xl text-amber-700 mb-8 max-w-2xl mx-auto">
-            Discover thousands of books at your fingertips. From classics to contemporary works, 
-            find your next great read in our extensive digital collection.
-          </p>
-          <div className="flex justify-center items-center space-x-8 text-amber-600">
-            <div className="text-center">
-              <BookOpen size={32} className="mx-auto mb-2" />
-              <p className="text-sm font-medium">10,000+ Books</p>
-            </div>
-            <div className="text-center">
-              <Star size={32} className="mx-auto mb-2" />
-              <p className="text-sm font-medium">Top Rated</p>
-            </div>
-            <div className="text-center">
-              <TrendingUp size={32} className="mx-auto mb-2" />
-              <p className="text-sm font-medium">Trending Now</p>
-            </div>
-          </div>
-        </div> */}
-
-        {/* Filters Section */}
+    <div className="min-h-screen flex flex-col justify-between bg-gradient-to-br from-amber-50 via-orange-50 to-amber-100">
+      <div className="container mx-auto px-4 py-6">
+        {/* Filters */}
         <div className="bg-white rounded-xl shadow-lg p-6 mb-8 border border-amber-200">
           <div className="flex items-center justify-between mb-4">
             <h2 className="text-lg font-semibold text-amber-900 flex items-center">
@@ -89,9 +81,8 @@ export const Home = () => {
               Clear All
             </button>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
-            {/* Author Search */}
             <div>
               <label className="block text-sm font-medium text-amber-900 mb-2">
                 Search by Author
@@ -108,29 +99,24 @@ export const Home = () => {
               </div>
             </div>
 
-            {/* Category Filter */}
             <div>
               <label className="block text-sm font-medium text-amber-900 mb-2">
                 Category
               </label>
               <select
                 value={filters.category}
-                onChange={(e) => handleFilterChange('category', e.target.value)}
+                onChange={(e) => handleFilterChange('category', Number(e.target.value))}
                 className="w-full py-2 px-3 border border-amber-200 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 bg-amber-50"
               >
                 <option value="">All Categories</option>
-                <option value="fiction">Fiction</option>
-                <option value="non-fiction">Non-Fiction</option>
-                <option value="mystery">Mystery</option>
-                <option value="romance">Romance</option>
-                <option value="sci-fi">Science Fiction</option>
-                <option value="biography">Biography</option>
-                <option value="history">History</option>
-                <option value="fantasy">Fantasy</option>
+                {categories.map((cat) => (
+                  <option key={cat.id} value={cat.id}>
+                    {cat.name}
+                  </option>
+                ))}
               </select>
             </div>
 
-            {/* Rating Filter */}
             <div>
               <label className="block text-sm font-medium text-amber-900 mb-2">
                 Minimum Rating
@@ -151,7 +137,6 @@ export const Home = () => {
               </select>
             </div>
 
-            {/* Availability Filter */}
             <div>
               <label className="block text-sm font-medium text-amber-900 mb-2">
                 Availability
@@ -167,7 +152,6 @@ export const Home = () => {
               </select>
             </div>
 
-            {/* Sort By */}
             <div>
               <label className="block text-sm font-medium text-amber-900 mb-2">
                 Sort By
@@ -178,28 +162,22 @@ export const Home = () => {
                 className="w-full py-2 px-3 border border-amber-200 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 bg-amber-50"
               >
                 <option value="">Default</option>
-                <option value="newest">
-                  Newest First
-                </option>
-                <option value="rating">
-                  Highest Rated
-                </option>
-                <option value="popularity">
-                  Most Popular
-                </option>
+                <option value="newest">Newest First</option>
+                <option value="rating">Highest Rated</option>
+                <option value="popularity">Most Popular</option>
                 <option value="title">A-Z</option>
               </select>
             </div>
           </div>
         </div>
 
-        {/* Results Section */}
+        {/* Results */}
         <div className="mb-6">
           <div className="flex items-center justify-between">
             <h2 className="text-2xl font-bold text-amber-900">
               {loading ? 'Loading books...' : `${books.length} Books Found`}
             </h2>
-            {books.length > 0 && !loading && (
+            {!loading && books.length > 0 && (
               <p className="text-amber-700">
                 Showing {books.length} result{books.length !== 1 ? 's' : ''}
               </p>
@@ -207,7 +185,7 @@ export const Home = () => {
           </div>
         </div>
 
-        {/* Books Grid */}
+        {/* Book Grid */}
         {loading ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
             {Array.from({ length: 10 }).map((_, index) => (
@@ -240,6 +218,15 @@ export const Home = () => {
           </div>
         )}
       </div>
+
+      <footer className="bg-gradient-to-br from-amber-50 via-orange-50 to-amber-100 py-10 mt-10">
+        <div className="container mx-auto px-4 text-center text-sm text-amber-800">
+          <p className="text-2xl font-bold text-amber-900 mb-2"> ELibrary 📚</p>
+          <p className="text-md mb-1">Explore. Read. Share Knowledge.</p>
+          <p className="text-sm">© {new Date().getFullYear()} All rights reserved. Built with ❤️ by Kiran</p>
+        </div>
+      </footer>
+
     </div>
   );
 };

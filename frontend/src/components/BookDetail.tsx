@@ -6,14 +6,14 @@ import { ReviewModal } from '../components/ReviewModal';
 import type { Book } from '../types';
 import { toast } from 'react-toastify';
 import { useAuth } from '../hooks/useAuth';
-import { 
-  Star, 
-  BookOpen, 
-  Bookmark, 
-  Download, 
-  Calendar, 
-  User, 
-  Tag, 
+import {
+  Star,
+  BookOpen,
+  Bookmark,
+  Download,
+  Calendar,
+  User,
+  Tag,
   MessageCircle,
   Share2,
   AlertCircle,
@@ -35,7 +35,7 @@ export const BookDetailPage = () => {
         setLoading(true);
         const data = await bookApi.getBookById(Number(id));
         setBook(data);
-      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
       } catch (error) {
         toast.error('Failed to fetch book details');
       } finally {
@@ -50,14 +50,14 @@ export const BookDetailPage = () => {
 
   const handleBorrow = async () => {
     if (!book) return;
-    
+
     try {
       setBorrowing(true);
       await borrowApi.borrowBook(book.id);
       toast.success('Book borrowed successfully');
       const updatedBook = await bookApi.getBookById(book.id);
       setBook(updatedBook);
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (error) {
       toast.error('Failed to borrow book');
     } finally {
@@ -67,12 +67,12 @@ export const BookDetailPage = () => {
 
   const handleBookmark = async () => {
     if (!book) return;
-    
+
     try {
       setBookmarking(true);
       await bookApi.bookmarkBook(book.id);
       toast.success('Book bookmarked');
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (error) {
       toast.error('Failed to bookmark book');
     } finally {
@@ -88,7 +88,7 @@ export const BookDetailPage = () => {
           text: `Check out "${book?.title}" by ${book?.author}`,
           url: window.location.href,
         });
-      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
       } catch (error) {
         // User cancelled sharing
       }
@@ -122,7 +122,7 @@ export const BookDetailPage = () => {
     );
   }
 
-  const averageRating = book.reviews.length > 0 
+  const averageRating = book.reviews.length > 0
     ? (book.reviews.reduce((sum, r) => sum + r.rating, 0) / book.reviews.length).toFixed(1)
     : null;
 
@@ -137,9 +137,9 @@ export const BookDetailPage = () => {
             {/* Book Cover */}
             <div className="lg:w-1/3 p-8">
               <div className="relative">
-                <img 
-                  src={book.coverImage} 
-                  alt={book.title} 
+                <img
+                  src={book.coverImage}
+                  alt={book.title}
                   className="w-full h-96 object-cover rounded-2xl shadow-lg"
                 />
                 <div className="absolute top-4 right-4">
@@ -177,7 +177,7 @@ export const BookDetailPage = () => {
               </div>
 
               <h1 className="text-4xl font-bold text-slate-800 mb-4">{book.title}</h1>
-              
+
               <div className="flex items-center text-slate-600 mb-6">
                 <User size={20} className="mr-2" />
                 <span className="text-lg">by {book.author}</span>
@@ -210,12 +210,11 @@ export const BookDetailPage = () => {
                   </span>
                 </div>
                 <div className="w-full bg-slate-200 rounded-full h-3">
-                  <div 
-                    className={`h-3 rounded-full transition-all duration-300 ${
-                      isAvailable ? 'bg-emerald-500' : 'bg-red-500'
-                    }`}
-                    style={{ 
-                      width: `${((book.totalCopies - book.borrowedCopies) / book.totalCopies) * 100}%` 
+                  <div
+                    className={`h-3 rounded-full transition-all duration-300 ${isAvailable ? 'bg-emerald-500' : 'bg-red-500'
+                      }`}
+                    style={{
+                      width: `${((book.totalCopies - book.borrowedCopies) / book.totalCopies) * 100}%`
                     }}
                   />
                 </div>
@@ -295,11 +294,10 @@ export const BookDetailPage = () => {
                             <Star
                               key={i}
                               size={16}
-                              className={`${
-                                i < review.rating 
-                                  ? 'text-yellow-500 fill-current' 
+                              className={`${i < review.rating
+                                  ? 'text-yellow-500 fill-current'
                                   : 'text-slate-300'
-                              }`}
+                                }`}
                             />
                           ))}
                           <span className="ml-2 text-sm font-medium text-slate-700">
@@ -313,7 +311,7 @@ export const BookDetailPage = () => {
                       {new Date(review.createdAt).toLocaleDateString()}
                     </div>
                   </div>
-                  
+
                   {review.comment && (
                     <p className="text-slate-700 leading-relaxed ml-13">
                       {review.comment}
@@ -343,9 +341,9 @@ export const BookDetailPage = () => {
 
         {/* Review Modal */}
         {showReviewModal && (
-          <ReviewModal 
-            bookId={book.id} 
-            onClose={() => setShowReviewModal(false)} 
+          <ReviewModal
+            bookId={book.id}
+            onClose={() => setShowReviewModal(false)}
           />
         )}
       </div>

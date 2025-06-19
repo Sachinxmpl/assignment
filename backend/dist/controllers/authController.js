@@ -81,11 +81,18 @@ const getCurrentUser = ((req, res) => __awaiter(void 0, void 0, void 0, function
     }
 }));
 const googleCallback = ((req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    console.log("Inside backend google backback url ");
     try {
         const user = req.user;
+        console.log("SO the user is ");
+        console.log(user);
+        if (!user) {
+            logger_1.logger.error('Google OAuth callback error: user is undefined');
+            return res.status(400).json({ message: 'User information not found in request' });
+        }
         const token = jsonwebtoken_1.default.sign({ id: user.id, role: user.role }, process.env.JWT_SECRET, { expiresIn: '1d' });
         logger_1.logger.info(`Google OAuth login: ${user.email}`);
-        res.redirect(`${process.env.FRONTEND_URL}/?token=${token}`);
+        res.redirect(`${process.env.FRONTEND_URL}`);
     }
     catch (error) {
         logger_1.logger.error('Google OAuth callback error', error);

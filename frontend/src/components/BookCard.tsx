@@ -7,7 +7,7 @@ interface BookCardProps {
 }
 
 export const BookCard = ({ book }: BookCardProps) => {
-  const averageRating = book.reviews.length > 0 
+  const averageRating = book.reviews.length > 0
     ? (book.reviews.reduce((sum, r) => sum + r.rating, 0) / book.reviews.length).toFixed(1)
     : null;
 
@@ -15,18 +15,18 @@ export const BookCard = ({ book }: BookCardProps) => {
   const isAvailable = book.totalCopies > book.borrowedCopies;
 
   return (
-    <Link 
-      to={`/books/${book.id}`} 
+    <Link
+      to={`/books/${book.id}`}
       className="group bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg border border-white/50 overflow-hidden hover:shadow-xl transform hover:scale-105 transition-all duration-300"
     >
       {/* Book Cover */}
       <div className="relative overflow-hidden">
-        <img 
-          src={book.coverImage} 
+        <img
+          src={book.coverImage}
           alt={book.title}
           className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
         />
-        
+
         {/* Availability Badge */}
         <div className="absolute top-3 right-3">
           {isAvailable ? (
@@ -83,11 +83,10 @@ export const BookCard = ({ book }: BookCardProps) => {
             </span>
           </div>
           <div className="w-full bg-slate-200 rounded-full h-2">
-            <div 
-              className={`h-2 rounded-full transition-all duration-300 ${
-                availabilityPercentage > 50 ? 'bg-emerald-500' :
+            <div
+              className={`h-2 rounded-full transition-all duration-300 ${availabilityPercentage > 50 ? 'bg-emerald-500' :
                 availabilityPercentage > 20 ? 'bg-yellow-500' : 'bg-red-500'
-              }`}
+                }`}
               style={{ width: `${availabilityPercentage}%` }}
             />
           </div>

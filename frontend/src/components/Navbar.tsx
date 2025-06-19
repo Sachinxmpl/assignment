@@ -10,7 +10,6 @@ export const Navbar = () => {
   const location = useLocation();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  // Close mobile menu when route changes
   useEffect(() => {
     setIsMobileMenuOpen(false);
   }, [location.pathname]);
@@ -31,11 +30,8 @@ export const Navbar = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
-  const isActiveRoute = (path: string) => {
-    return location.pathname === path;
-  };
+  const isActiveRoute = (path: string) => location.pathname === path;
 
-  // Show loading state while authentication is being checked
   if (isLoading) {
     return (
       <nav className="bg-gradient-to-r from-amber-50 via-orange-50 to-amber-100 shadow-lg border-b border-amber-200 sticky top-0 z-50">
@@ -53,7 +49,6 @@ export const Navbar = () => {
     <nav className="bg-gradient-to-r from-amber-50 via-orange-50 to-amber-100 shadow-lg border-b border-amber-200 sticky top-0 z-50 backdrop-blur-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo */}
           <div className="flex items-center">
             <Link
               to="/"
@@ -66,7 +61,6 @@ export const Navbar = () => {
             </Link>
           </div>
 
-          {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-1">
             <Link
               to="/"
@@ -79,33 +73,9 @@ export const Navbar = () => {
               Home
             </Link>
 
-            {user && (
-              <Link
-                to="/my-books"
-                className={`flex items-center px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 ${isActiveRoute('/my-books')
-                  ? 'bg-amber-200 text-amber-900 shadow-md'
-                  : 'text-amber-800 hover:text-amber-900 hover:bg-amber-100'
-                  }`}
-              >
-                <BookOpen size={16} className="mr-2" />
-                My Books
-              </Link>
-            )}
-
             {user ? (
-              <>
-                <Link
-                  to="/dashboard"
-                  className={`flex items-center px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 ${isActiveRoute('/dashboard')
-                    ? 'bg-amber-200 text-amber-900 shadow-md'
-                    : 'text-amber-800 hover:text-amber-900 hover:bg-amber-100'
-                    }`}
-                >
-                  <LayoutDashboard size={16} className="mr-2" />
-                  Dashboard
-                </Link>
-
-                {user.role === 'ADMIN' && (
+              user.role === 'ADMIN' ? (
+                <>
                   <Link
                     to="/admin-dashboard"
                     className={`flex items-center px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 ${isActiveRoute('/admin-dashboard')
@@ -116,28 +86,59 @@ export const Navbar = () => {
                     <LayoutDashboard size={16} className="mr-2" />
                     Admin
                   </Link>
-                )}
 
-                {/* User Profile */}
-                <Link
-                  to="/profile"
-                  className={`flex items-center px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 ${isActiveRoute('/profile')
-                    ? 'bg-amber-200 text-amber-900 shadow-md'
-                    : 'text-amber-800 hover:text-amber-900 hover:bg-amber-100'
-                    }`}
-                >
-                  <User size={16} className="mr-2" />
-                  {user.name || user.email || 'Profile'}
-                </Link>
+                  <button
+                    onClick={handleLogout}
+                    className="flex items-center px-4 py-2 rounded-lg text-sm font-medium text-red-700 hover:text-red-800 hover:bg-red-50 transition-all duration-300 ml-2 border border-red-200 hover:border-red-300"
+                  >
+                    <LogOut size={16} className="mr-2" />
+                    Logout
+                  </button>
+                </>
+              ) : (
+                <>
+                  <Link
+                    to="/my-books"
+                    className={`flex items-center px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 ${isActiveRoute('/my-books')
+                      ? 'bg-amber-200 text-amber-900 shadow-md'
+                      : 'text-amber-800 hover:text-amber-900 hover:bg-amber-100'
+                      }`}
+                  >
+                    <BookOpen size={16} className="mr-2" />
+                    My Books
+                  </Link>
 
-                <button
-                  onClick={handleLogout}
-                  className="flex items-center px-4 py-2 rounded-lg text-sm font-medium text-red-700 hover:text-red-800 hover:bg-red-50 transition-all duration-300 ml-2 border border-red-200 hover:border-red-300"
-                >
-                  <LogOut size={16} className="mr-2" />
-                  Logout
-                </button>
-              </>
+                  <Link
+                    to="/dashboard"
+                    className={`flex items-center px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 ${isActiveRoute('/dashboard')
+                      ? 'bg-amber-200 text-amber-900 shadow-md'
+                      : 'text-amber-800 hover:text-amber-900 hover:bg-amber-100'
+                      }`}
+                  >
+                    <LayoutDashboard size={16} className="mr-2" />
+                    Dashboard
+                  </Link>
+
+                  <Link
+                    to="/profile"
+                    className={`flex items-center px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 ${isActiveRoute('/profile')
+                      ? 'bg-amber-200 text-amber-900 shadow-md'
+                      : 'text-amber-800 hover:text-amber-900 hover:bg-amber-100'
+                      }`}
+                  >
+                    <User size={16} className="mr-2" />
+                    {user.name || user.email || 'Profile'}
+                  </Link>
+
+                  <button
+                    onClick={handleLogout}
+                    className="flex items-center px-4 py-2 rounded-lg text-sm font-medium text-red-700 hover:text-red-800 hover:bg-red-50 transition-all duration-300 ml-2 border border-red-200 hover:border-red-300"
+                  >
+                    <LogOut size={16} className="mr-2" />
+                    Logout
+                  </button>
+                </>
+              )
             ) : (
               <>
                 <Link
@@ -159,7 +160,6 @@ export const Navbar = () => {
             )}
           </div>
 
-          {/* Mobile menu button */}
           <div className="md:hidden flex items-center">
             <button
               onClick={toggleMobileMenu}
@@ -171,7 +171,6 @@ export const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Navigation */}
       {isMobileMenuOpen && (
         <div className="md:hidden bg-gradient-to-b from-amber-50 to-orange-50 shadow-xl border-t border-amber-200">
           <div className="px-4 pt-2 pb-4 space-y-2">
@@ -187,35 +186,9 @@ export const Navbar = () => {
               Home
             </Link>
 
-            {user && (
-              <Link
-                to="/my-books"
-                className={`flex items-center px-3 py-3 rounded-lg text-base font-medium transition-all duration-300 ${isActiveRoute('/my-books')
-                  ? 'bg-amber-200 text-amber-900 shadow-md'
-                  : 'text-amber-800 hover:text-amber-900 hover:bg-amber-100'
-                  }`}
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                <BookOpen size={18} className="mr-3" />
-                My Books
-              </Link>
-            )}
-
             {user ? (
-              <>
-                <Link
-                  to="/dashboard"
-                  className={`flex items-center px-3 py-3 rounded-lg text-base font-medium transition-all duration-300 ${isActiveRoute('/dashboard')
-                    ? 'bg-amber-200 text-amber-900 shadow-md'
-                    : 'text-amber-800 hover:text-amber-900 hover:bg-amber-100'
-                    }`}
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  <LayoutDashboard size={18} className="mr-3" />
-                  Dashboard
-                </Link>
-
-                {user.role === 'ADMIN' && (
+              user.role === 'ADMIN' ? (
+                <>
                   <Link
                     to="/admin-dashboard"
                     className={`flex items-center px-3 py-3 rounded-lg text-base font-medium transition-all duration-300 ${isActiveRoute('/admin-dashboard')
@@ -227,30 +200,66 @@ export const Navbar = () => {
                     <LayoutDashboard size={18} className="mr-3" />
                     Admin Dashboard
                   </Link>
-                )}
 
-                <Link
-                  to="/profile"
-                  className={`flex items-center px-3 py-3 rounded-lg text-base font-medium transition-all duration-300 ${isActiveRoute('/profile')
-                    ? 'bg-amber-200 text-amber-900 shadow-md'
-                    : 'text-amber-800 hover:text-amber-900 hover:bg-amber-100'
-                    }`}
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  <User size={18} className="mr-3" />
-                  {user.name || user.email || 'Profile'}
-                </Link>
-
-                <div className="pt-2 border-t border-amber-200">
-                  <button
-                    onClick={handleLogout}
-                    className="flex items-center w-full px-3 py-3 rounded-lg text-base font-medium text-red-700 hover:text-red-800 hover:bg-red-50 transition-all duration-300"
+                  <div className="pt-2 border-t border-amber-200">
+                    <button
+                      onClick={handleLogout}
+                      className="flex items-center w-full px-3 py-3 rounded-lg text-base font-medium text-red-700 hover:text-red-800 hover:bg-red-50 transition-all duration-300"
+                    >
+                      <LogOut size={18} className="mr-3" />
+                      Logout
+                    </button>
+                  </div>
+                </>
+              ) : (
+                <>
+                  <Link
+                    to="/my-books"
+                    className={`flex items-center px-3 py-3 rounded-lg text-base font-medium transition-all duration-300 ${isActiveRoute('/my-books')
+                      ? 'bg-amber-200 text-amber-900 shadow-md'
+                      : 'text-amber-800 hover:text-amber-900 hover:bg-amber-100'
+                      }`}
+                    onClick={() => setIsMobileMenuOpen(false)}
                   >
-                    <LogOut size={18} className="mr-3" />
-                    Logout
-                  </button>
-                </div>
-              </>
+                    <BookOpen size={18} className="mr-3" />
+                    My Books
+                  </Link>
+
+                  <Link
+                    to="/dashboard"
+                    className={`flex items-center px-3 py-3 rounded-lg text-base font-medium transition-all duration-300 ${isActiveRoute('/dashboard')
+                      ? 'bg-amber-200 text-amber-900 shadow-md'
+                      : 'text-amber-800 hover:text-amber-900 hover:bg-amber-100'
+                      }`}
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    <LayoutDashboard size={18} className="mr-3" />
+                    Dashboard
+                  </Link>
+
+                  <Link
+                    to="/profile"
+                    className={`flex items-center px-3 py-3 rounded-lg text-base font-medium transition-all duration-300 ${isActiveRoute('/profile')
+                      ? 'bg-amber-200 text-amber-900 shadow-md'
+                      : 'text-amber-800 hover:text-amber-900 hover:bg-amber-100'
+                      }`}
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    <User size={18} className="mr-3" />
+                    {user.name || user.email || 'Profile'}
+                  </Link>
+
+                  <div className="pt-2 border-t border-amber-200">
+                    <button
+                      onClick={handleLogout}
+                      className="flex items-center w-full px-3 py-3 rounded-lg text-base font-medium text-red-700 hover:text-red-800 hover:bg-red-50 transition-all duration-300"
+                    >
+                      <LogOut size={18} className="mr-3" />
+                      Logout
+                    </button>
+                  </div>
+                </>
+              )
             ) : (
               <>
                 <Link

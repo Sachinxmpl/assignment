@@ -1119,3 +1119,102 @@
 [2025-06-16T13:07:23.235Z] INFO: Fetched current user: admin@example.com
 [2025-06-16T13:07:26.377Z] ERROR: Error [328cadff-442f-4458-8ccb-89169fccc810] on GET /auth/google - [object Object]
 [2025-06-16T13:13:42.409Z] ERROR: Error [c2b12a97-3334-459c-a484-b81337da412c] on GET /auth/google - [object Object]
+[2025-06-16T15:02:34.025Z] INFO: User logged in: admin@gmail.com
+[2025-06-16T15:02:34.365Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-16T15:02:34.387Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-16T15:02:35.632Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-16T15:02:35.660Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-16T15:02:35.723Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-16T15:02:35.753Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-16T15:02:36.563Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-16T15:02:36.584Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-16T15:02:37.979Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-16T15:02:38.007Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-16T15:02:38.061Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-16T15:02:38.081Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-16T15:02:51.928Z] INFO: Google OAuth login: sachinxmpl6@gmail.com
+[2025-06-16T15:03:23.250Z] ERROR: Error logging in user - Error: Invalid Credentials
+[2025-06-16T15:03:53.982Z] INFO: User registered: sachin@gmail.com
+[2025-06-16T15:03:54.142Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:03:54.160Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:03:54.173Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:03:54.190Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:04:02.969Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:04:02.996Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:04:03.027Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:04:03.058Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:04:03.083Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:04:03.113Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:04:13.177Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:04:13.214Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:04:15.456Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:04:15.485Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:04:18.834Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:04:18.860Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:04:18.922Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:04:18.936Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:04:19.632Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:04:19.648Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:04:20.703Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:04:20.738Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:04:22.103Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:04:22.129Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:04:23.874Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:04:23.913Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:08:24.351Z] ERROR: Error logging in user - Error: Invalid Credentials
+[2025-06-16T15:08:33.712Z] INFO: User logged in: sachin@gmail.com
+[2025-06-16T15:08:34.071Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:08:34.098Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:33:24.718Z] INFO: Google OAuth login: sachinxmpl6@gmail.com
+[2025-06-16T15:37:21.308Z] INFO: User logged in: sachin@gmail.com
+[2025-06-16T15:37:21.772Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:37:21.789Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:37:36.603Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:37:36.627Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:37:36.663Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:37:36.679Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:37:39.054Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:37:39.080Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:40:36.492Z] INFO: Google OAuth login: sachinkhatri588385@gmail.com
+[2025-06-16T15:48:25.586Z] INFO: User logged in: sachin@gmail.com
+[2025-06-16T15:48:25.974Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-16T15:48:25.987Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-19T16:11:56.216Z] ERROR: Error logging in user - PrismaClientKnownRequestError: 
+Invalid `db_1.default.user.findUnique()` invocation in
+C:\Users\Sachin\Documents\eBookLibrary\backend\dist\services\userService.js:31:46
+
+  28     });
+  29 }),
+  30 login: (email, password) => __awaiter(void 0, void 0, void 0, function* () {
+→ 31     const user = yield db_1.default.user.findUnique(
+The table `public.User` does not exist in the current database.
+[2025-06-19T16:12:06.790Z] ERROR: Error logging in user - PrismaClientKnownRequestError: 
+Invalid `db_1.default.user.findUnique()` invocation in
+C:\Users\Sachin\Documents\eBookLibrary\backend\dist\services\userService.js:31:46
+
+  28     });
+  29 }),
+  30 login: (email, password) => __awaiter(void 0, void 0, void 0, function* () {
+→ 31     const user = yield db_1.default.user.findUnique(
+The table `public.User` does not exist in the current database.
+[2025-06-19T16:16:32.025Z] ERROR: Error registering user - PrismaClientKnownRequestError: 
+Invalid `db_1.default.user.create()` invocation in
+C:\Users\Sachin\Documents\eBookLibrary\backend\dist\services\userService.js:21:34
+
+  18 exports.userService = {
+  19     register: (email, password, name) => __awaiter(void 0, void 0, void 0, function* () {
+  20         const hashedpassword = yield bcryptjs_1.default.hash(password, 10);
+→ 21         return db_1.default.user.create(
+The table `public.User` does not exist in the current database.
+[2025-06-19T16:20:11.007Z] INFO: User registered: sachin@gmail.com
+[2025-06-19T16:20:11.223Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-19T16:20:11.241Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-19T16:20:11.258Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-19T16:20:11.274Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-19T16:20:15.627Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-19T16:20:15.645Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-19T16:20:29.480Z] INFO: User logged in: sachin@gmail.com
+[2025-06-19T16:20:29.923Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-19T16:20:29.943Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-19T16:20:59.045Z] ERROR: Error logging in user - Error: Invalid Credentials
+[2025-06-19T16:21:12.130Z] ERROR: Error logging in user - Error: Invalid Credentials
