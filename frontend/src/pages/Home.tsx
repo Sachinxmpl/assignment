@@ -171,7 +171,6 @@ export const Home = () => {
           </div>
         </div>
 
-        {/* Results */}
         <div className="mb-6">
           <div className="flex items-center justify-between">
             <h2 className="text-2xl font-bold text-amber-900">
@@ -185,7 +184,6 @@ export const Home = () => {
           </div>
         </div>
 
-        {/* Book Grid */}
         {loading ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
             {Array.from({ length: 10 }).map((_, index) => (

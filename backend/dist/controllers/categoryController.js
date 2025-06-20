@@ -31,6 +31,7 @@ exports.categoryController = {
     getCategories: (req, res) => __awaiter(void 0, void 0, void 0, function* () {
         try {
             const categories = yield db_1.default.category.findMany();
+            console.log(categories);
             res.json(categories);
         }
         catch (error) {

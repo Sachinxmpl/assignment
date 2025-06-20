@@ -18,7 +18,6 @@ export const categoryController = {
     getCategories: async (req: Request, res: Response) => {
         try {
             const categories = await dbclient.category.findMany();
-            console.log("_____________________")
             console.log(categories)
             res.json(categories);
         } catch (error) {
