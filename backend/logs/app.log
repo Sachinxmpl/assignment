@@ -1404,3 +1404,662 @@ The table `public.User` does not exist in the current database.
 [2025-06-19T19:03:09.801Z] INFO: Fetched current user: admin@gmail.com
 [2025-06-19T19:03:14.529Z] INFO: Fetched current user: admin@gmail.com
 [2025-06-19T19:03:14.546Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:36:48.175Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:36:48.201Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:37:03.978Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:37:04.001Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:37:04.021Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:37:04.040Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:37:04.051Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:37:04.063Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:37:07.523Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:37:07.559Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:37:14.068Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:37:14.088Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:37:17.703Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:37:17.723Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:37:34.442Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:37:34.464Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:40:54.195Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:40:54.213Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:41:05.687Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:41:05.716Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:41:17.447Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:41:17.475Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:41:19.295Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:41:19.331Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:41:21.667Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:41:21.698Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:44:22.329Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:44:22.350Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:44:43.284Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:44:43.301Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:44:43.610Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:44:43.643Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:44:48.267Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:44:48.278Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:44:53.361Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:44:53.412Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:46:34.415Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:46:34.457Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:50:07.097Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:50:07.112Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:52:29.621Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:52:29.643Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:53:43.495Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T02:53:43.514Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:02:31.327Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:02:31.348Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:03:45.124Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:03:45.169Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:03:45.860Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:03:45.896Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:03:45.917Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:03:45.936Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:03:47.150Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:03:47.203Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:04:19.036Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:04:19.060Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:04:29.255Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:04:29.285Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:12:53.350Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:12:53.386Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:12:53.418Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:12:53.439Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:14:27.232Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:14:27.256Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:14:30.372Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:14:30.405Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:17:08.011Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:17:27.448Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:17:27.475Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:18:08.472Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:18:46.090Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:18:46.122Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:18:46.156Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:18:46.195Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:19:02.430Z] INFO: User logged in: sachin@gmail.com
+[2025-06-20T03:19:02.828Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T03:19:02.850Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T03:19:05.478Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T03:19:05.510Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T03:19:08.199Z] INFO: Book borrowed: 1 by user 1
+[2025-06-20T03:21:31.933Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T03:21:31.961Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T03:21:31.978Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T03:21:32.010Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T03:21:38.812Z] INFO: Book returned: borrow ID 1
+[2025-06-20T03:21:42.033Z] INFO: Book borrowed: 1 by user 1
+[2025-06-20T03:21:46.336Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T03:21:46.362Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T03:21:46.419Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T03:21:46.443Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T03:21:50.227Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T03:21:50.242Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T03:21:50.297Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T03:21:50.325Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T03:22:07.207Z] INFO: User logged in: admin@gmail.com
+[2025-06-20T03:22:07.558Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:22:07.590Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:22:09.131Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:22:09.155Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:22:20.012Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:22:20.030Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:23:42.001Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:23:42.028Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:27:46.957Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:27:55.248Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:27:55.280Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:27:55.305Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:27:55.333Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:29:02.532Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:29:02.544Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:29:02.554Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:29:02.565Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:29:16.245Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:29:16.271Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:29:28.444Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:29:28.474Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:29:36.520Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:29:36.548Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:29:58.400Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:29:58.424Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:30:01.358Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:30:01.375Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:30:14.477Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:30:14.499Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:30:24.636Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:30:24.661Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:30:27.798Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:30:27.824Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:30:33.006Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:30:33.035Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:30:38.817Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:30:38.838Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:30:42.972Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:30:43.002Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:30:45.926Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:30:45.948Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:32:00.524Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:32:00.538Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:32:12.466Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:32:12.501Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:32:15.386Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:32:15.401Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:33:13.424Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:33:13.444Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:33:15.274Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:33:15.288Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:35:14.237Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:35:14.249Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:38:31.017Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:38:31.034Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:38:34.585Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:38:34.614Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:39:04.504Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T03:39:04.529Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T04:14:59.264Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T04:14:59.293Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T04:17:16.375Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T04:17:16.405Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T04:20:46.848Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T04:20:46.888Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T10:14:21.527Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T10:14:21.538Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T10:47:26.735Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T10:47:26.761Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T10:50:48.826Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T10:50:48.843Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T10:52:58.030Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T10:52:58.057Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T10:54:49.992Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T10:54:50.009Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T10:54:50.569Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T10:54:50.593Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T10:55:39.187Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T10:55:39.206Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T10:56:25.699Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T10:56:25.732Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T10:56:47.191Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T10:56:47.230Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T10:57:03.174Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T10:57:03.196Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T10:57:33.836Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T10:57:33.848Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T10:57:37.862Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T10:57:37.883Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T10:57:46.083Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T10:57:46.107Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:01:43.515Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:01:43.532Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:01:43.544Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:01:43.561Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:01:53.686Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:01:53.701Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:01:53.712Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:01:53.721Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:01:55.448Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:01:55.460Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:01:55.473Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:01:55.484Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:02:05.516Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:02:05.529Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:02:05.542Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:02:05.556Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:09:56.436Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:09:56.458Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:09:56.470Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:09:56.485Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:10:06.633Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:10:06.651Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:10:06.667Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:10:06.683Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:10:09.144Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:10:09.161Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:10:09.187Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:10:09.204Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:10:10.111Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:10:10.141Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:10:10.174Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:10:10.194Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:10:10.648Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:10:10.677Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:10:10.710Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:10:10.742Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:10:30.152Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:10:30.169Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:10:30.184Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:10:30.202Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:10:37.178Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:10:37.197Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:10:37.215Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:10:37.233Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:10:42.098Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:10:42.111Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:10:42.129Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:10:42.143Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:10:52.606Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:10:52.619Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:10:55.214Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:10:55.244Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:11:56.488Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:11:56.508Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:12:52.529Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:12:52.540Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:12:52.553Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:12:52.567Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:13:01.522Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:13:01.540Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:13:01.560Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:13:01.579Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:13:06.486Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:13:06.511Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:13:06.539Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:13:06.569Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:13:14.651Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:13:14.681Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:13:14.711Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:13:14.736Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:14:29.708Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:14:29.723Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:14:29.740Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:14:29.761Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:14:43.159Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:14:43.175Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:14:43.189Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:14:43.201Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:14:44.721Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:14:44.737Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:14:44.755Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:14:44.773Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:14:51.166Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:14:51.193Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:14:51.218Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:14:51.232Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:20.544Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:20.562Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:20.583Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:20.602Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:23.627Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:23.648Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:23.676Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:23.691Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:31.542Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:31.560Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:31.581Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:31.607Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:33.219Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:33.237Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:33.255Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:33.271Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:37.632Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:37.647Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:37.664Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:37.681Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:39.702Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:39.723Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:39.742Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:39.760Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:43.675Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:43.688Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:43.704Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:43.715Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:48.351Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:48.375Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:48.402Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:48.420Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:55.137Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:55.163Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:55.186Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:15:55.210Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:17:02.877Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:17:02.908Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:17:02.946Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:17:02.992Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:17:05.402Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:17:05.429Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:17:05.457Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:17:05.487Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:17:05.784Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:17:05.801Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:17:05.816Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:17:05.834Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:17:06.122Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:17:06.139Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:17:06.159Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:17:06.183Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:17:14.820Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:17:14.841Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:25:21.487Z] INFO: User logged in: admin@gmail.com
+[2025-06-20T11:25:21.986Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:25:22.030Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:25:22.975Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:25:23.005Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:31:14.686Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:31:14.728Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:31:14.753Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:31:14.795Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:32:58.944Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:33:04.654Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:33:04.674Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:33:04.698Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:33:04.728Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:43:59.025Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:43:59.036Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:43:59.048Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:43:59.063Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:44:38.011Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:44:38.021Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:44:38.031Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:44:38.041Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:46:50.785Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:46:50.808Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:46:50.827Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:46:50.843Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:47:50.156Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:47:50.167Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:47:50.178Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:47:50.188Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:49:28.513Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:49:28.524Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:49:28.535Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:49:28.552Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:52:09.559Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:52:09.591Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:52:09.612Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:52:09.630Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T11:54:01.850Z] INFO: User logged in: sachin@gmail.com
+[2025-06-20T11:54:02.259Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T11:54:02.317Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T11:54:05.261Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T11:54:05.289Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T11:54:45.976Z] INFO: Book borrowed: 5 by user 1
+[2025-06-20T11:57:31.419Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T11:57:31.450Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T11:57:31.473Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T11:57:31.488Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T11:58:42.747Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T11:58:42.759Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T11:58:42.772Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T11:58:42.785Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:00:43.129Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:00:43.157Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:00:43.187Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:00:43.229Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:03:11.343Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:03:11.374Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:03:11.404Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:03:11.444Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:05:02.963Z] INFO: User logged in: sachin@gmail.com
+[2025-06-20T12:05:03.766Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:05:03.853Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:05:08.927Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:05:08.980Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:06:09.785Z] INFO: User logged in: sachin@gmail.com
+[2025-06-20T12:06:10.204Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:06:10.270Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:06:12.804Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:06:12.828Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:07:26.020Z] INFO: User logged in: sachin@gmail.com
+[2025-06-20T12:07:26.376Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:07:26.470Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:07:33.640Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:07:33.685Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:07:36.490Z] INFO: Book borrowed: 6 by user 1
+[2025-06-20T12:08:42.413Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-20T12:08:46.395Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:08:46.425Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:08:46.451Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:08:46.472Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:08:47.966Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-20T12:08:58.574Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:08:58.601Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:08:59.964Z] INFO: Book borrowed: 8 by user 1
+[2025-06-20T12:09:01.932Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-20T12:09:05.236Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-20T12:09:06.056Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-20T12:09:06.653Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-20T12:09:07.398Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-20T12:09:08.053Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-20T12:10:33.269Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:10:33.293Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:10:33.317Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:10:33.360Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:10:36.334Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-20T12:11:01.110Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-20T12:12:44.554Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:12:44.608Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:12:44.640Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:12:44.666Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:12:48.253Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-20T12:13:43.581Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:13:43.669Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:13:43.695Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:13:43.722Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T12:13:50.730Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-20T12:14:16.436Z] INFO: User logged in: admin@gmail.com
+[2025-06-20T12:14:16.891Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T12:14:16.935Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T12:14:22.335Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T12:14:22.370Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T12:14:34.768Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T12:14:34.804Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T12:14:51.233Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T12:14:51.258Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T12:42:32.552Z] INFO: User logged in: admin@gmail.com
+[2025-06-20T12:42:32.877Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T12:42:32.914Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T12:42:34.245Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T12:42:34.272Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T12:42:36.545Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T12:42:36.565Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T12:47:56.411Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T12:47:56.430Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T12:47:56.448Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T12:47:56.469Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T12:48:24.026Z] INFO: User logged in: admin@gmail.com
+[2025-06-20T12:48:24.367Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T12:48:24.411Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T12:48:25.859Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T12:48:25.879Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T12:59:49.678Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T12:59:49.700Z] INFO: Fetched current user: admin@gmail.com
+[2025-06-20T13:00:23.494Z] INFO: User registered: sachin@gmail.com
+[2025-06-20T13:00:23.670Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T13:00:23.695Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T13:00:23.715Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T13:00:23.740Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T13:00:26.067Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T13:00:26.086Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T13:00:34.281Z] INFO: User logged in: sachin@gmail.com
+[2025-06-20T13:00:34.866Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T13:00:34.894Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T13:00:37.475Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T13:00:37.517Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T13:00:39.108Z] INFO: Book borrowed: 2 by user 2
+[2025-06-20T13:00:43.241Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-20T13:00:47.257Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-20T13:00:47.494Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-20T13:00:47.687Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-20T13:00:47.933Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-20T13:00:48.373Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-20T13:00:48.601Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-20T13:00:48.825Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-20T13:01:08.679Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-20T13:01:52.499Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T13:01:52.522Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T13:01:52.549Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T13:01:52.572Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T13:01:55.342Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-20T13:02:23.993Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T13:02:24.047Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T13:02:24.074Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T13:02:24.094Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T13:02:26.481Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-20T13:04:57.589Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-20T13:05:49.848Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T13:05:49.869Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T13:05:49.893Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T13:05:49.908Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T13:05:53.003Z] ERROR: Error returning book - Error: Invalid borrow record
+[2025-06-20T13:09:27.404Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T13:09:27.439Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T13:09:37.874Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T13:09:37.897Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T13:09:37.914Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T13:09:37.946Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T13:09:42.006Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T13:09:42.039Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T14:42:24.132Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T14:42:24.163Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T14:42:24.187Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T14:42:24.210Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T14:42:26.478Z] INFO: Book borrowed: 1 by user 2
+[2025-06-20T14:42:46.401Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T14:42:46.439Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T14:43:44.338Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T14:43:44.361Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T14:43:44.376Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T14:43:44.390Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T14:43:49.124Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T14:43:49.163Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T14:44:22.559Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T14:44:22.582Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T14:44:22.613Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T14:44:22.672Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T14:44:25.658Z] ERROR: Error returning book - PrismaClientValidationError: 
+Invalid `db_1.default.borrow.findUnique()` invocation in
+C:\Users\Sachin\Documents\eBookLibrary\backend\dist\services\borrowService.js:53:50
+
+  50     return borrow;
+  51 }),
+  52 returnBook: (borrowId, userId) => __awaiter(void 0, void 0, void 0, function* () {
+→ 53     const borrow = yield db_1.default.borrow.findUnique({
+           where: {
+         +   id: Int
+           },
+           include: {
+             book: true,
+             user: true
+           }
+         })
+
+Argument `id` is missing.
+[2025-06-20T14:48:30.268Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T14:48:30.287Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T14:48:30.311Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T14:48:30.333Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T14:48:32.304Z] ERROR: Error returning book - PrismaClientValidationError: 
+Invalid `db_1.default.borrow.findUnique()` invocation in
+C:\Users\Sachin\Documents\eBookLibrary\backend\dist\services\borrowService.js:53:50
+
+  50     return borrow;
+  51 }),
+  52 returnBook: (borrowId, userId) => __awaiter(void 0, void 0, void 0, function* () {
+→ 53     const borrow = yield db_1.default.borrow.findUnique({
+           where: {
+         +   id: Int
+           },
+           include: {
+             book: true,
+             user: true
+           }
+         })
+
+Argument `id` is missing.
+[2025-06-20T14:49:09.895Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T14:49:09.908Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T14:49:09.926Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T14:49:09.946Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T14:49:12.204Z] ERROR: Error returning book - PrismaClientValidationError: 
+Invalid `db_1.default.borrow.findUnique()` invocation in
+C:\Users\Sachin\Documents\eBookLibrary\backend\dist\services\borrowService.js:53:50
+
+  50     return borrow;
+  51 }),
+  52 returnBook: (borrowId, userId) => __awaiter(void 0, void 0, void 0, function* () {
+→ 53     const borrow = yield db_1.default.borrow.findUnique({
+           where: {
+         +   id: Int
+           },
+           include: {
+             book: true,
+             user: true
+           }
+         })
+
+Argument `id` is missing.
+[2025-06-20T14:49:27.959Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T14:49:27.990Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T14:49:28.022Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T14:49:28.059Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T14:49:29.614Z] INFO: Book returned: borrow ID 1
+[2025-06-20T14:49:57.231Z] INFO: Review created for book 2 by user 2
+[2025-06-20T15:35:29.130Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:35:29.149Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:35:29.164Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:35:29.183Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:38:21.496Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:38:21.528Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:38:21.565Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:38:21.602Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:38:31.646Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:38:31.674Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:38:31.708Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:38:31.727Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:44:02.842Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:44:02.864Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:44:02.882Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:44:02.904Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:52:15.499Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:52:15.529Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:52:15.563Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:52:15.596Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:52:29.480Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:52:29.498Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:52:29.521Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:52:29.549Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:52:33.533Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:52:33.554Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:52:33.578Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:52:33.603Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:52:34.453Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:52:34.483Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:52:34.512Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:52:34.529Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:52:36.457Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:52:36.478Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:52:36.502Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:52:36.524Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:52:40.470Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:52:40.489Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:52:40.505Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:52:40.522Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:52:46.710Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:52:46.732Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:52:46.755Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:52:46.777Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:53:57.142Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:53:57.180Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:53:57.223Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T15:53:57.263Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T16:04:47.529Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T16:04:47.553Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T16:32:52.708Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T16:32:52.734Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T16:32:52.828Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T16:32:52.851Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T16:44:34.077Z] INFO: User logged in: sachin@gmail.com
+[2025-06-20T16:44:34.413Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T16:44:34.428Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T16:44:37.121Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T16:44:37.137Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T16:44:51.992Z] INFO: Review created for book 2 by user 2
+[2025-06-20T16:45:04.557Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T16:45:04.573Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T16:45:04.627Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T16:45:04.651Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T16:45:16.523Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T16:45:16.536Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T16:45:23.354Z] INFO: Fetched current user: sachin@gmail.com
+[2025-06-20T16:45:23.379Z] INFO: Fetched current user: sachin@gmail.com

@@ -9,5 +9,6 @@ router.post('/', protected_route, borrowController.borrowBook);
 router.post('/return/:id', protected_route, borrowController.returnBook);
 router.get('/history', protected_route, borrowController.getBorrowHistory);
 router.get('/export', protected_route, restrictTo('ADMIN'), borrowController.exportBorrowHistory);
+router.get('/borrow-id',protected_route , borrowController.getBorrowId )
 
 export default router;

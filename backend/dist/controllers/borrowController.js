@@ -8,13 +8,17 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.borrowController = exports.exportBorrowHistory = exports.getBorrowHistory = exports.returnBook = exports.borrowBook = void 0;
+exports.borrowController = exports.getBorrowId = exports.exportBorrowHistory = exports.getBorrowHistory = exports.returnBook = exports.borrowBook = void 0;
 const borrowService_1 = require("../services/borrowService");
 const borrowSchema_1 = require("../zodSchemas/borrowSchema");
 const validationMiddleware_1 = require("../middlewares/validationMiddleware");
 const exportCsv_1 = require("../utils/exportCsv");
 const logger_1 = require("../utils/logger");
+const db_1 = __importDefault(require("../config/db"));
 // Middleware + controller
 exports.borrowBook = [
     (0, validationMiddleware_1.validationMiddleware)(borrowSchema_1.borrowSchema),
@@ -35,8 +39,11 @@ exports.borrowBook = [
 exports.returnBook = ((req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const borrowId = parseInt(req.params.id);
+        console.log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+        console.log(borrowId);
         const userId = req.user.id;
         const result = yield borrowService_1.borrowService.returnBook(borrowId, userId);
+        console.log("Result is " + result);
         logger_1.logger.info(`Book returned: borrow ID ${borrowId}`);
         res.json(result);
     }
@@ -70,10 +77,29 @@ exports.exportBorrowHistory = ((req, res) => __awaiter(void 0, void 0, void 0, f
         res.status(500).json({ message: 'Export failed', error });
     }
 }));
+exports.getBorrowId = ((req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    const { bookId, userId } = req.query;
+    try {
+        const borrow = yield db_1.default.borrow.findFirst({
+            where: {
+                bookId: Number(bookId),
+                userId: Number(userId),
+            }
+        });
+        if (!borrow) {
+            return res.status(404).json({ message: 'Borrow record not found' });
+        }
+        res.json({ borrowId: borrow.id });
+    }
+    catch (error) {
+        res.status(500).json({ message: 'Server error' });
+    }
+}));
 // Controller export
 exports.borrowController = {
     borrowBook: exports.borrowBook,
     returnBook: exports.returnBook,
     getBorrowHistory: exports.getBorrowHistory,
     exportBorrowHistory: exports.exportBorrowHistory,
+    getBorrowId: exports.getBorrowId
 };

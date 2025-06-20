@@ -54,6 +54,9 @@ exports.borrowService = {
             where: { id: borrowId },
             include: { book: true, user: true },
         });
+        console.log("{{{{{{{{{{{{{{{{{{");
+        console.log(borrowId, userId);
+        console.log(borrow);
         if (!borrow || borrow.userId !== userId) {
             throw new Error('Invalid borrow record');
         }

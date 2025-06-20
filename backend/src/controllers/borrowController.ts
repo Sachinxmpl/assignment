@@ -5,6 +5,7 @@ import { validationMiddleware } from '../middlewares/validationMiddleware';
 import { exportBorrowHistory as exportCSV } from '../utils/exportCsv';
 import { logger } from '../utils/logger';
 import { CustomRequest } from '../types/type';
+import dbclient from '../config/db';
 
 // Middleware + controller
 export const borrowBook = [
@@ -28,10 +29,12 @@ export const borrowBook = [
 export const returnBook = (async (req: CustomRequest, res: Response) => {
   try {
     const borrowId = parseInt(req.params.id);
+    console.log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
+    console.log(borrowId)
     const userId = req.user!.id;
 
     const result = await borrowService.returnBook(borrowId, userId);
-
+    console.log("Result is " + result)
     logger.info(`Book returned: borrow ID ${borrowId}`);
     res.json(result);
   } catch (error) {
@@ -70,10 +73,33 @@ export const exportBorrowHistory = (async (req: CustomRequest, res: Response) =>
   }
 }) as RequestHandler;
 
+export const getBorrowId = (async (req: CustomRequest, res: Response) => {
+  const { bookId, userId } = req.query;
+  try {
+    const borrow = await dbclient.borrow.findFirst({
+      where: {
+        bookId: Number(bookId),
+        userId: Number(userId),
+      }
+    })
+
+    if (!borrow) {
+      return res.status(404).json({ message: 'Borrow record not found' });
+    }
+
+    res.json({ borrowId: borrow.id });
+
+  } catch (error) {
+    res.status(500).json({ message: 'Server error' });
+  }
+}
+) as RequestHandler
+
 // Controller export
 export const borrowController = {
   borrowBook,
   returnBook,
   getBorrowHistory,
   exportBorrowHistory,
+  getBorrowId
 };

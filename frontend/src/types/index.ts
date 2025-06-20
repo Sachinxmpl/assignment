@@ -30,6 +30,7 @@ export interface Borrow {
 }
 
 export interface Review {
+  user: unknown;
   id: number;
   userId: number;
   bookId: number;

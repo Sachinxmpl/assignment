@@ -18,7 +18,7 @@ export const createReview = [
       });
 
       if (!borrow) {
-        return res.status(403).json({ message: 'Only users who borrowed this book can review' });
+        return res.status(403).json({ message: 'Only users who borrowed and returned this book can review' });
       }
 
       const review = await dbclient.review.create({

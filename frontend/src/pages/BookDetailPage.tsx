@@ -42,8 +42,8 @@ export const BookDetailPage = () => {
   const handleBorrowOrReturn = async () => {
     try {
       if (hasUserBorrowed) {
-        console.log("!@@@@#%$^&*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&")
-        await borrowApi.returnBook(Number(id));
+        const borrowId = await borrowApi.getBorrowId(Number(id), user!.id);
+        await borrowApi.returnBook(Number(borrowId));
         toast.success('Book returned successfully');
       } else {
         await borrowApi.borrowBook(Number(id));
@@ -174,26 +174,35 @@ export const BookDetailPage = () => {
           {book.reviews.length > 0 ? (
             <div className="space-y-5">
               {book.reviews.map((review) => (
-                <div key={review.id} className="bg-amber-100/60 rounded-lg p-4">
-                  <div className="flex items-center justify-between mb-2">
-                    <div className="flex items-center text-sm text-yellow-700">
-                      <Star size={16} className="mr-1 fill-current" />
-                      <span className="font-semibold">{review.rating}/5</span>
-                    </div>
-                    <span className="text-xs text-gray-500">
-                      {new Date(review.createdAt).toLocaleDateString()}
-                    </span>
-                  </div>
+                <div key={review.id} className="bg-amber-100/20 rounded-lg p-4">
+                  <p className="text-gray-800 font-semibold mb-1">
+                    {review.user?.name ?? 'Unknown User'}
+                  </p>
+                  <p className="text-sm text-gray-500 mb-1">
+                    {new Date(review.createdAt).toLocaleString(undefined, {
+                      year: 'numeric',
+                      month: '2-digit',
+                      day: '2-digit',
+                      hour: 'numeric',
+                      minute: '2-digit',
+                      hour12: true,
+                    })}
+                  </p>
+                  <p className="text-yellow-700 text-sm font-medium mb-1">
+                    {'★'.repeat(review.rating)}{'☆'.repeat(5 - review.rating)} {review.rating}/5
+                  </p>
                   {review.comment && (
                     <p className="text-gray-700 text-sm">{review.comment}</p>
                   )}
                 </div>
               ))}
+
             </div>
           ) : (
             <p className="text-gray-500">No reviews yet. Be the first to leave one!</p>
           )}
         </section>
+
       </div>
 
       {showReviewModal && (
