@@ -31,7 +31,7 @@ export const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/books/:id" element={<BookDetailPage />} />
+        <Route path="/books/:id" element={<BookDetailPage/>} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/my-books" element={<ProtectedRoute><MyBooks /></ProtectedRoute>} />

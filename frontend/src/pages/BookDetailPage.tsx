@@ -23,11 +23,26 @@ export const BookDetailPage = () => {
       .catch(() => toast.error('Failed to fetch book'));
   }, [id]);
 
+  useEffect(() => {
+    const shouldLockScroll = showReviewModal || showDeleteConfirm || showImagePopup;
+
+    if (shouldLockScroll) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'auto';
+    }
+
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, [showReviewModal, showDeleteConfirm, showImagePopup]);
+
   const hasUserBorrowed = user?.role === 'USER' && (book?.borrowedCopies ?? 0) > 0;
 
   const handleBorrowOrReturn = async () => {
     try {
       if (hasUserBorrowed) {
+        console.log("!@@@@#%$^&*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&")
         await borrowApi.returnBook(Number(id));
         toast.success('Book returned successfully');
       } else {
@@ -106,9 +121,9 @@ export const BookDetailPage = () => {
                 {user.role !== 'ADMIN' && (
                   <button
                     onClick={handleBorrowOrReturn}
-                    className={`px-4 py-2 rounded text-white font-medium transition ${hasUserBorrowed
-                        ? 'bg-red-600 hover:bg-red-700'
-                        : 'bg-blue-600 hover:bg-blue-700'
+                    className={`px-4 py-2 rounded cursor-pointer text-white font-medium transition ${hasUserBorrowed
+                      ? 'bg-red-600 hover:bg-red-700'
+                      : 'bg-blue-600 hover:bg-blue-700'
                       }`}
                     disabled={!hasUserBorrowed && book.totalCopies <= book.borrowedCopies}
                   >
@@ -181,10 +196,18 @@ export const BookDetailPage = () => {
         </section>
       </div>
 
-      {/* Review Modal */}
       {showReviewModal && (
-        <ReviewModal bookId={book.id} onClose={() => setShowReviewModal(false)} />
+        <ReviewModal
+          bookId={book.id}
+          onClose={() => setShowReviewModal(false)}
+          onReviewAdded={async () => {
+            const updated = await bookApi.getBookById(book.id);
+            setBook(updated);
+          }}
+        />
       )}
+
+
       {showDeleteConfirm && (
         <div className="fixed inset-0 z-50 bg-black/60 flex items-center justify-center px-4">
           <div className="bg-white rounded-xl shadow-lg max-w-md w-full p-6 relative">

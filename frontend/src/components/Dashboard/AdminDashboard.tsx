@@ -23,6 +23,7 @@ export const AdminDashboard = () => {
   const [selectedTab, setSelectedTab] = useState('overview');
   const [searchTerm, setSearchTerm] = useState('');
   const [loading, setLoading] = useState(true);
+  const [isAddingBook , setIsAddingBook] = useState(false) ; 
   const [bookForm, setBookForm] = useState({
     title: '',
     author: '',
@@ -67,6 +68,8 @@ export const AdminDashboard = () => {
 
   const handleAddBook = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    if(isAddingBook) return ; 
+    setIsAddingBook(true) ; 
     const formData = new FormData();
     formData.append('title', bookForm.title);
     formData.append('author', bookForm.author);
@@ -95,6 +98,8 @@ export const AdminDashboard = () => {
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (error) {
       toast.error('Failed to add book');
+    } finally{
+      setIsAddingBook(false) ;
     }
   };
 

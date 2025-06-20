@@ -47,7 +47,7 @@ export const Navbar = () => {
 
   return (
     <nav className="bg-gradient-to-r from-amber-50 via-orange-50 to-amber-100 shadow-lg border-b border-amber-200 sticky top-0 z-50 backdrop-blur-sm">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <Link
@@ -55,9 +55,13 @@ export const Navbar = () => {
               className="flex items-center text-xl font-bold text-amber-900 hover:text-orange-700 transition-all duration-300 transform hover:scale-105"
             >
               <Book className="mr-2 text-orange-600" size={28} />
-              <span className="bg-gradient-to-r from-amber-800 to-orange-700 bg-clip-text text-transparent">
+              <button
+                onClick={() => window.location.reload()}
+                className="bg-gradient-to-r from-amber-800 to-orange-700 bg-clip-text text-transparent cursor-pointer"
+              >
                 Digital Library
-              </span>
+              </button>
+
             </Link>
           </div>
 
@@ -249,7 +253,7 @@ export const Navbar = () => {
                     {user.name || user.email || 'Profile'}
                   </Link>
 
-                  <div className="pt-2 border-t border-amber-200">
+                  <div className="pt-2 border-t border-amber-200 cursor-pointer">
                     <button
                       onClick={handleLogout}
                       className="flex items-center w-full px-3 py-3 rounded-lg text-base font-medium text-red-700 hover:text-red-800 hover:bg-red-50 transition-all duration-300"

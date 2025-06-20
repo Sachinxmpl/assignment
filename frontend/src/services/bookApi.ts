@@ -1,5 +1,5 @@
 import api from './api';
-import type { Book, Review } from '../types';
+import type { Book} from '../types';
 
 export const bookApi = {
   getBooks: async (filters: {
@@ -33,7 +33,9 @@ export const bookApi = {
   },
 
   createReview: async (data: { bookId: number; rating: number; comment?: string }) => {
-    const response = await api.post<Review>('/reviews', data);
+    console.log("Inside bookapi")
+    console.log(data)
+    const response = await api.post('/reviews', data);
     return response.data;
   },
 

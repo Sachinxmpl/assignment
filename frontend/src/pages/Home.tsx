@@ -23,8 +23,7 @@ export const Home = () => {
         setLoading(true);
         const fetchedBooks = await bookApi.getBooks(filters);
         setBooks(fetchedBooks);
-        // eslint-disable-next-line @typescript-eslint/no-unused-vars
-      } catch (error) {
+      } catch {
         toast.error('Failed to fetch books');
       } finally {
         setLoading(false);
@@ -38,14 +37,11 @@ export const Home = () => {
     const fetchCategories = async () => {
       try {
         const res = await bookApi.getCategories();
-        console.log(res)
         setCategories(res || []);
-        // eslint-disable-next-line @typescript-eslint/no-unused-vars
-      } catch (error) {
+      } catch {
         toast.error('Failed to fetch categories');
       }
     };
-
 
     fetchCategories();
   }, []);
@@ -64,19 +60,20 @@ export const Home = () => {
     });
   };
 
+  const customSelectStyle =
+    'w-full py-2 px-4 border border-amber-200 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 bg-amber-50 text-sm hover:bg-orange-100 transition-all duration-150';
+
   return (
     <div className="min-h-screen flex flex-col justify-between bg-gradient-to-br from-amber-50 via-orange-50 to-amber-100">
-      <div className="container mx-auto px-4 py-6">
-        {/* Filters */}
-        <div className="bg-white rounded-xl shadow-lg p-6 mb-8 border border-amber-200">
+      <div className="container mx-auto px-4 py-1">
+        <div className="bg-white rounded-xl p-6 mb-8 shadow-[0_4px_8px_rgba(0,0,0,0.05)]">
           <div className="flex items-center justify-between mb-4">
             <h2 className="text-lg font-semibold text-amber-900 flex items-center">
-              <Filter size={20} className="mr-2" />
-              Filter & Search
+              <Filter size={20} className="mr-2" /> Filter & Search
             </h2>
             <button
               onClick={clearFilters}
-              className="text-orange-600 hover:text-orange-700 text-sm font-medium hover:underline"
+              className="text-orange-600 hover:text-orange-700 text-sm font-medium hover:underline cursor-pointer"
             >
               Clear All
             </button>
@@ -84,11 +81,9 @@ export const Home = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
             <div>
-              <label className="block text-sm font-medium text-amber-900 mb-2">
-                Search by Author
-              </label>
+              <label className="block text-sm font-medium text-amber-900 mb-2">Search by Author</label>
               <div className="relative">
-                <Search size={16} className="absolute left-3 top-1/2 transform -translate-y-1/2 text-amber-500" />
+                <Search size={16} className="absolute left-3 top-1/2 transform -translate-y-1/2 text-amber-500 cursor-pointer" />
                 <input
                   type="text"
                   placeholder="Enter author name"
@@ -100,17 +95,19 @@ export const Home = () => {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-amber-900 mb-2">
-                Category
-              </label>
+              <label className="block text-sm font-medium text-amber-900 mb-2">Category</label>
               <select
                 value={filters.category}
                 onChange={(e) => handleFilterChange('category', Number(e.target.value))}
-                className="w-full py-2 px-3 border border-amber-200 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 bg-amber-50"
+                className={customSelectStyle}
               >
-                <option value="">All Categories</option>
+                <option value="" className = "cursor-pointer">All Categories</option>
                 {categories.map((cat) => (
-                  <option key={cat.id} value={cat.id}>
+                  <option
+                    key={cat.id}
+                    value={cat.id}
+                    className="py-2 px-4 text-amber-900 hover:bg-orange-100 hover:text-orange-700"
+                  >
                     {cat.name}
                   </option>
                 ))}
@@ -118,33 +115,25 @@ export const Home = () => {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-amber-900 mb-2">
-                Minimum Rating
-              </label>
+              <label className="block text-sm font-medium text-amber-900 mb-2">Minimum Rating</label>
               <select
                 value={filters.rating ?? ''}
-                onChange={(e) =>
-                  handleFilterChange('rating', e.target.value ? Number(e.target.value) : undefined)
-                }
-                className="w-full py-2 px-3 border border-amber-200 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 bg-amber-50"
+                onChange={(e) => handleFilterChange('rating', e.target.value ? Number(e.target.value) : undefined)}
+                className={customSelectStyle}
               >
                 <option value="">All Ratings</option>
                 {[5, 4, 3, 2, 1].map((rating) => (
-                  <option key={rating} value={rating}>
-                    {rating}+ Stars
-                  </option>
+                  <option key={rating} value={rating}>{rating}+ Stars</option>
                 ))}
               </select>
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-amber-900 mb-2">
-                Availability
-              </label>
+              <label className="block text-sm font-medium text-amber-900 mb-2">Availability</label>
               <select
                 value={filters.availability}
                 onChange={(e) => handleFilterChange('availability', e.target.value)}
-                className="w-full py-2 px-3 border border-amber-200 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 bg-amber-50"
+                className={customSelectStyle}
               >
                 <option value="">All Books</option>
                 <option value="available">Available Now</option>
@@ -153,13 +142,11 @@ export const Home = () => {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-amber-900 mb-2">
-                Sort By
-              </label>
+              <label className="block text-sm font-medium text-amber-900 mb-2">Sort By</label>
               <select
                 value={filters.sortBy}
                 onChange={(e) => handleFilterChange('sortBy', e.target.value)}
-                className="w-full py-2 px-3 border border-amber-200 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 bg-amber-50"
+                className={customSelectStyle}
               >
                 <option value="">Default</option>
                 <option value="newest">Newest First</option>
@@ -171,15 +158,14 @@ export const Home = () => {
           </div>
         </div>
 
+        {/* Book list */}
         <div className="mb-6">
           <div className="flex items-center justify-between">
             <h2 className="text-2xl font-bold text-amber-900">
               {loading ? 'Loading books...' : `${books.length} Books Found`}
             </h2>
             {!loading && books.length > 0 && (
-              <p className="text-amber-700">
-                Showing {books.length} result{books.length !== 1 ? 's' : ''}
-              </p>
+              <p className="text-amber-700">Showing {books.length} result{books.length !== 1 ? 's' : ''}</p>
             )}
           </div>
         </div>
@@ -204,9 +190,7 @@ export const Home = () => {
           <div className="text-center py-16">
             <BookOpen size={64} className="mx-auto text-amber-400 mb-4" />
             <h3 className="text-xl font-semibold text-amber-900 mb-2">No Books Found</h3>
-            <p className="text-amber-700 mb-4">
-              Try adjusting your filters or search terms to find more books.
-            </p>
+            <p className="text-amber-700 mb-4">Try adjusting your filters or search terms to find more books.</p>
             <button
               onClick={clearFilters}
               className="bg-gradient-to-r from-orange-500 to-amber-600 hover:from-orange-600 hover:to-amber-700 text-white px-6 py-2 rounded-lg font-medium transition-all duration-300 transform hover:scale-105"
@@ -219,12 +203,11 @@ export const Home = () => {
 
       <footer className="bg-gradient-to-br from-amber-50 via-orange-50 to-amber-100 py-10 mt-10">
         <div className="container mx-auto px-4 text-center text-sm text-amber-800">
-          <p className="text-2xl font-bold text-amber-900 mb-2"> ELibrary 📚</p>
+          <p className="text-2xl font-bold text-amber-900 mb-2">ELibrary 📚</p>
           <p className="text-md mb-1">Explore. Read. Share Knowledge.</p>
           <p className="text-sm">© {new Date().getFullYear()} All rights reserved. Built with ❤️ by Kiran</p>
         </div>
       </footer>
-
     </div>
   );
 };
